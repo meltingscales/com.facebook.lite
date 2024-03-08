@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="A_splashScreenTheme" parent="@style/splashScreenTheme">
+    </style>
+    <style name="Bloks_BottomSheetDialog" parent="">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+    </style>
+    <style name="CDSDarkMode" parent="@style/CDSLightMode">
+        <item name="cds_dark_mode">true</item>
+        <item name="cds_usage_accent">@color/cds_gray_03</item>
+        <item name="cds_usage_accent_deemphasized">@color/cds_gray_03_a40</item>
+        <item name="cds_usage_always_white">@color/cds_white</item>
+        <item name="cds_usage_attachment_footer_background">@color/cds_white_a10</item>
+        <item name="cds_usage_background_deemphasized">@color/cds_gray_10</item>
+        <item name="cds_usage_black_solidarity_primary_button_background">@color/cds_white</item>
+        <item name="cds_usage_black_solidarity_primary_button_text">@color/cds_gray_10</item>
+        <item name="cds_usage_blue_badge">@color/cds_navy_04</item>
+        <item name="cds_usage_blue_link">@color/cds_navy_04</item>
+        <item name="cds_usage_border_focused">@color/cds_gray_04</item>
+        <item name="cds_usage_border_unfocused">@color/cds_gray_06</item>
+        <item name="cds_usage_bottom_sheet_handle">@color/cds_gray_03</item>
+        <item name="cds_usage_card_background">@color/cds_gray_08</item>
+        <item name="cds_usage_card_background_flat">@color/cds_gray_08</item>
+        <item name="cds_usage_comment_background">@color/cds_white_a10</item>
+        <item name="cds_usage_comment_threading_lines">@color/cds_gray_07</item>
+        <item name="cds_usage_date_picker_accent">@color/cds_white</item>
+        <item name="cds_usage_disabled_icon">@color/cds_gray_06</item>
+        <item name="cds_usage_disabled_text">@color/cds_white_a15</item>
+        <item name="cds_usage_divider">@color/cds_gray_07</item>
+        <item name="cds_usage_event_date">@color/cds_red_04</item>
+        <item name="cds_usage_fb_app_wordmark">@color/cds_white</item>
+        <item name="cds_usage_fb_company_wordmark">@color/cds_gray_02</item>
+        <item name="cds_usage_glimmer_index_0">@color/cds_white_a10</item>
+        <item name="cds_usage_glimmer_index_1">@color/cds_white_a08</item>
+        <item name="cds_usage_glimmer_index_2">@color/cds_white_a06</item>
+        <item name="cds_usage_glimmer_index_3">@color/cds_white_a04</item>
+        <item name="cds_usage_glimmer_index_4">@color/cds_white_a02</item>
+        <item name="cds_usage_glimmer_on_white_background">@color/cds_gray_01</item>
+        <item name="cds_usage_hidden_comment_overlay">@color/cds_gray_10_a45</item>
+        <item name="cds_usage_high_contrast_button_pressed">@color/cds_transparent</item>
+        <item name="cds_usage_hosted_view_selected_state">@color/cds_white_a10</item>
+        <item name="cds_usage_hover_overlay">@color/cds_white_a10</item>
+        <item name="cds_usage_inline_link">@color/cds_gray_03</item>
+        <item name="cds_usage_list_cell_chevron">@color/cds_gray_03</item>
+        <item name="cds_usage_media_inner_border">@color/cds_white_a10</item>
+        <item name="cds_usage_media_pressed">@color/cds_white_a30</item>
+        <item name="cds_usage_messenger_blue">@color/cds_blue_11</item>
+        <item name="cds_usage_nav_bar_background">@color/cds_transparent</item>
+        <item name="cds_usage_nav_list_selected">@color/cds_gray_02</item>
+        <item name="cds_usage_negative">@color/cds_red_04</item>
+        <item name="cds_usage_negative_deemphasized">@color/cds_red_04_a40</item>
+        <item name="cds_usage_new_notification_background">@color/cds_white_a10</item>
+        <item name="cds_usage_non_media_pressed">@color/cds_white_a20</item>
+        <item name="cds_usage_non_media_pressed_on_dark">@color/cds_white_a30</item>
+        <item name="cds_usage_notification_badge">@color/cds_red_04</item>
+        <item name="cds_usage_optimistic_post_tint">@color/cds_gray_10_a45</item>
+        <item name="cds_usage_overlay_on_media">@color/cds_black_a60</item>
+        <item name="cds_usage_overlay_on_surface">@color/cds_black_a60</item>
+        <item name="cds_usage_placeholder_icon">@color/cds_gray_04</item>
+        <item name="cds_usage_placeholder_image">@color/cds_gray_07</item>
+        <item name="cds_usage_placeholder_text">@color/cds_white_a30</item>
+        <item name="cds_usage_placeholder_text_on_media">@color/cds_white_a45</item>
+        <item name="cds_usage_popover_background">@color/cds_gray_08</item>
+        <item name="cds_usage_positive">@color/cds_green_04</item>
+        <item name="cds_usage_primary_button_background">@color/cds_white</item>
+        <item name="cds_usage_primary_button_background_on_media">@color/cds_white</item>
+        <item name="cds_usage_primary_button_icon">@color/cds_gray_10</item>
+        <item name="cds_usage_primary_button_icon_on_media">@color/cds_gray_10</item>
+        <item name="cds_usage_primary_button_text">@color/cds_gray_10</item>
+        <item name="cds_usage_primary_button_text_on_media">@color/cds_gray_10</item>
+        <item name="cds_usage_primary_deemphasized_button_background">@color/cds_white</item>
+        <item name="cds_usage_primary_deemphasized_button_icon">@color/cds_gray_10</item>
+        <item name="cds_usage_primary_deemphasized_button_text">@color/cds_gray_10</item>
+        <item name="cds_usage_primary_disabled_button_background">@color/cds_white_a30</item>
+        <item name="cds_usage_primary_disabled_button_icon">@color/cds_gray_10</item>
+        <item name="cds_usage_primary_icon">@color/cds_white</item>
+        <item name="cds_usage_primary_icon_on_media">@color/cds_white</item>
+        <item name="cds_usage_primary_text">@color/cds_white</item>
+        <item name="cds_usage_primary_text_on_media">@color/cds_white</item>
+        <item name="cds_usage_primary_ui_shadow_background">@color/cds_grey10_a20</item>
+        <item name="cds_usage_progress_ring_on_media_background">@color/cds_white_a20</item>
+        <item name="cds_usage_progress_ring_on_media_foreground">@color/cds_gray_10</item>
+        <item name="cds_usage_progress_ring_on_neutral_foreground">@color/cds_white</item>
+        <item name="cds_usage_secondary_button_background">@color/cds_transparent</item>
+        <item name="cds_usage_secondary_button_background_on_color">@color/cds_transparent</item>
+        <item name="cds_usage_secondary_button_background_on_media">@color/cds_gray_10</item>
+        <item name="cds_usage_secondary_button_icon">@color/cds_white</item>
+        <item name="cds_usage_secondary_button_icon_on_media">@color/cds_white</item>
+        <item name="cds_usage_secondary_button_pressed">@color/cds_transparent</item>
+        <item name="cds_usage_secondary_button_stroke">@color/cds_gray_04</item>
+        <item name="cds_usage_secondary_button_text">@color/cds_white</item>
+        <item name="cds_usage_secondary_button_text_on_media">@color/cds_white</item>
+        <item name="cds_usage_secondary_disabled_button_icon">@color/cds_gray_07</item>
+        <item name="cds_usage_secondary_disabled_button_stroke">@color/cds_gray_04_a50</item>
+        <item name="cds_usage_secondary_disabled_button_text">@color/cds_gray_07</item>
+        <item name="cds_usage_secondary_icon">@color/cds_gray_02</item>
+        <item name="cds_usage_secondary_text">@color/cds_gray_02</item>
+        <item name="cds_usage_secondary_text_on_media">@color/cds_white_a70</item>
+        <item name="cds_usage_stepper_active">@color/cds_gray_03</item>
+        <item name="cds_usage_stepper_inactive">@color/cds_gray_03_a40</item>
+        <item name="cds_usage_surface_background">@color/cds_gray_08</item>
+        <item name="cds_usage_switch_active">@color/cds_gray_03</item>
+        <item name="cds_usage_switch_active_accent">@color/cds_white</item>
+        <item name="cds_usage_switch_active_accent_disabled">@color/cds_gray_13</item>
+        <item name="cds_usage_switch_active_disabled">@color/cds_gray_15</item>
+        <item name="cds_usage_switch_active_track_android">@color/cds_gray_03</item>
+        <item name="cds_usage_switch_active_track_android_disabled">@color/cds_gray_15</item>
+        <item name="cds_usage_switch_inactive">@color/cds_gray_07</item>
+        <item name="cds_usage_switch_inactive_accent">@color/cds_gray_06</item>
+        <item name="cds_usage_switch_inactive_accent_disabled">@color/cds_gray_14</item>
+        <item name="cds_usage_switch_inactive_disabled">@color/cds_gray_17</item>
+        <item name="cds_usage_text_highlight">@color/cds_navy_03</item>
+        <item name="cds_usage_text_input_bar_background">@color/cds_gray_08</item>
+        <item name="cds_usage_toast_background">@color/cds_gray_07</item>
+        <item name="cds_usage_toast_text_link">@color/cds_navy_04</item>
+        <item name="cds_usage_toggle_active_background">@color/cds_gray_02</item>
+        <item name="cds_usage_toggle_active_icon">@color/cds_gray_10</item>
+        <item name="cds_usage_toggle_active_text">@color/cds_gray_10</item>
+        <item name="cds_usage_ui_background">@color/cds_gray_10</item>
+        <item name="cds_usage_warning">@color/cds_yellow_05</item>
+    </style>
+    <style name="CDSLightMode" parent="">
+        <item name="cds_dark_mode">false</item>
+        <item name="cds_usage_accent">@color/cds_gray_10</item>
+        <item name="cds_usage_accent_deemphasized">@color/cds_gray_10_a50</item>
+        <item name="cds_usage_always_white">@color/cds_white</item>
+        <item name="cds_usage_attachment_footer_background">@color/cds_gray_10_a10</item>
+        <item name="cds_usage_background_deemphasized">@color/cds_gray_01</item>
+        <item name="cds_usage_black_solidarity_primary_button_background">@color/cds_gray_10</item>
+        <item name="cds_usage_black_solidarity_primary_button_text">@color/cds_white</item>
+        <item name="cds_usage_blue_badge">@color/cds_navy_05</item>
+        <item name="cds_usage_blue_link">@color/cds_navy_05</item>
+        <item name="cds_usage_border_focused">@color/cds_gray_06</item>
+        <item name="cds_usage_border_unfocused">@color/cds_gray_03</item>
+        <item name="cds_usage_bottom_sheet_handle">@color/cds_gray_03</item>
+        <item name="cds_usage_card_background">@color/cds_white</item>
+        <item name="cds_usage_card_background_flat">@color/cds_white</item>
+        <item name="cds_usage_comment_background">@color/cds_gray_10_a10</item>
+        <item name="cds_usage_comment_threading_lines">@color/cds_gray_02</item>
+        <item name="cds_usage_date_picker_accent">@color/cds_gray_10</item>
+        <item name="cds_usage_disabled_icon">@color/cds_gray_03</item>
+        <item name="cds_usage_disabled_text">@color/cds_gray_10_a25</item>
+        <item name="cds_usage_divider">@color/cds_gray_02</item>
+        <item name="cds_usage_event_date">@color/cds_red_05</item>
+        <item name="cds_usage_fb_app_wordmark">@color/cds_facebook_blue</item>
+        <item name="cds_usage_fb_company_wordmark">@color/cds_gray_07</item>
+        <item name="cds_usage_glimmer_index_0">@color/cds_white_a25</item>
+        <item name="cds_usage_glimmer_index_1">@color/cds_white_a20</item>
+        <item name="cds_usage_glimmer_index_2">@color/cds_white_a15</item>
+        <item name="cds_usage_glimmer_index_3">@color/cds_white_a10</item>
+        <item name="cds_usage_glimmer_index_4">@color/cds_white_a05</item>
+        <item name="cds_usage_glimmer_on_white_background">@color/cds_gray_10</item>
+        <item name="cds_usage_hidden_comment_overlay">@color/cds_white_a45</item>
+        <item name="cds_usage_high_contrast_button_pressed">@color/cds_transparent</item>
+        <item name="cds_usage_hosted_view_selected_state">@color/cds_gray_10_a10</item>
+        <item name="cds_usage_hover_overlay">@color/cds_black_a05</item>
+        <item name="cds_usage_inline_link">@color/cds_gray_07</item>
+        <item name="cds_usage_list_cell_chevron">@color/cds_gray_06</item>
+        <item name="cds_usage_media_inner_border">@color/cds_gray_10_a10</item>
+        <item name="cds_usage_media_pressed">@color/cds_gray_10_a30</item>
+        <item name="cds_usage_messenger_blue">@color/cds_blue_11</item>
+        <item name="cds_usage_nav_bar_background">@color/cds_transparent</item>
+        <item name="cds_usage_nav_list_selected">@color/cds_gray_08</item>
+        <item name="cds_usage_negative">@color/cds_red_05</item>
+        <item name="cds_usage_negative_deemphasized">@color/cds_red_02</item>
+        <item name="cds_usage_new_notification_background">@color/cds_gray_10_a10</item>
+        <item name="cds_usage_non_media_pressed">@color/cds_gray_10_a15</item>
+        <item name="cds_usage_non_media_pressed_on_dark">@color/cds_white_a30</item>
+        <item name="cds_usage_notification_badge">@color/cds_red_05</item>
+        <item name="cds_usage_optimistic_post_tint">@color/cds_white_a45</item>
+        <item name="cds_usage_overlay_on_media">@color/cds_black_a60</item>
+        <item name="cds_usage_overlay_on_surface">@color/cds_black_a60</item>
+        <item name="cds_usage_placeholder_icon">@color/cds_gray_05</item>
+        <item name="cds_usage_placeholder_image">@color/cds_gray_02</item>
+        <item name="cds_usage_placeholder_text">@color/cds_gray_10_a50</item>
+        <item name="cds_usage_placeholder_text_on_media">@color/cds_white_a45</item>
+        <item name="cds_usage_popover_background">@color/cds_white</item>
+        <item name="cds_usage_positive">@color/cds_green_06</item>
+        <item name="cds_usage_primary_button_background">@color/cds_gray_10</item>
+        <item name="cds_usage_primary_button_background_on_media">@color/cds_white</item>
+        <item name="cds_usage_primary_button_icon">@color/cds_white</item>
+        <item name="cds_usage_primary_button_icon_on_media">@color/cds_gray_10</item>
+        <item name="cds_usage_primary_button_text">@color/cds_white</item>
+        <item name="cds_usage_primary_button_text_on_media">@color/cds_gray_10</item>
+        <item name="cds_usage_primary_deemphasized_button_background">@color/cds_gray_10</item>
+        <item name="cds_usage_primary_deemphasized_button_icon">@color/cds_white</item>
+        <item name="cds_usage_primary_deemphasized_button_text">@color/cds_white</item>
+        <item name="cds_usage_primary_disabled_button_background">@color/cds_gray_10_a30</item>
+        <item name="cds_usage_primary_disabled_button_icon">@color/cds_white_a65</item>
+        <item name="cds_usage_primary_icon">@color/cds_gray_10</item>
+        <item name="cds_usage_primary_icon_on_media">@color/cds_white</item>
+        <item name="cds_usage_primary_text">@color/cds_gray_10</item>
+        <item name="cds_usage_primary_text_on_media">@color/cds_white</item>
+        <item name="cds_usage_primary_ui_shadow_background">@color/cds_white</item>
+        <item name="cds_usage_progress_ring_on_media_background">@color/cds_white_a20</item>
+        <item name="cds_usage_progress_ring_on_media_foreground">@color/cds_white</item>
+        <item name="cds_usage_progress_ring_on_neutral_foreground">@color/cds_gray_10</item>
+        <item name="cds_usage_secondary_button_background">@color/cds_transparent</item>
+        <item name="cds_usage_secondary_button_background_on_color">@color/cds_transparent</item>
+        <item name="cds_usage_secondary_button_background_on_media">@color/cds_gray_10</item>
+        <item name="cds_usage_secondary_button_icon">@color/cds_gray_10</item>
+        <item name="cds_usage_secondary_button_icon_on_media">@color/cds_white</item>
+        <item name="cds_usage_secondary_button_pressed">@color/cds_transparent</item>
+        <item name="cds_usage_secondary_button_stroke">@color/cds_gray_03</item>
+        <item name="cds_usage_secondary_button_text">@color/cds_gray_10</item>
+        <item name="cds_usage_secondary_button_text_on_media">@color/cds_white</item>
+        <item name="cds_usage_secondary_disabled_button_icon">@color/cds_gray_03</item>
+        <item name="cds_usage_secondary_disabled_button_stroke">@color/cds_gray_03_a50</item>
+        <item name="cds_usage_secondary_disabled_button_text">@color/cds_gray_03</item>
+        <item name="cds_usage_secondary_icon">@color/cds_gray_07</item>
+        <item name="cds_usage_secondary_text">@color/cds_gray_07</item>
+        <item name="cds_usage_secondary_text_on_media">@color/cds_white_a70</item>
+        <item name="cds_usage_stepper_active">@color/cds_gray_08</item>
+        <item name="cds_usage_stepper_inactive">@color/cds_gray_08_a40</item>
+        <item name="cds_usage_surface_background">@color/cds_white</item>
+        <item name="cds_usage_switch_active">@color/cds_gray_10</item>
+        <item name="cds_usage_switch_active_accent">@color/cds_gray_10</item>
+        <item name="cds_usage_switch_active_accent_disabled">@color/cds_gray_11</item>
+        <item name="cds_usage_switch_active_disabled">@color/cds_gray_11</item>
+        <item name="cds_usage_switch_active_track_android">@color/cds_gray_03</item>
+        <item name="cds_usage_switch_active_track_android_disabled">@color/cds_gray_16</item>
+        <item name="cds_usage_switch_inactive">@color/cds_gray_03</item>
+        <item name="cds_usage_switch_inactive_accent">@color/cds_gray_01</item>
+        <item name="cds_usage_switch_inactive_accent_disabled">@color/cds_gray_12</item>
+        <item name="cds_usage_switch_inactive_disabled">@color/cds_gray_16</item>
+        <item name="cds_usage_text_highlight">@color/cds_navy_06</item>
+        <item name="cds_usage_text_input_bar_background">@color/cds_white</item>
+        <item name="cds_usage_toast_background">@color/cds_gray_08</item>
+        <item name="cds_usage_toast_text_link">@color/cds_navy_04</item>
+        <item name="cds_usage_toggle_active_background">@color/cds_gray_10</item>
+        <item name="cds_usage_toggle_active_icon">@color/cds_white</item>
+        <item name="cds_usage_toggle_active_text">@color/cds_white</item>
+        <item name="cds_usage_ui_background">@color/cds_gray_10</item>
+        <item name="cds_usage_warning">@color/cds_yellow_07</item>
+    </style>
+    <style name="CdsCalendarDatePickerDark" parent="@android:style/Widget.DeviceDefault.DatePicker">
+        <item name="android:textColorPrimaryInverse">@color/cds_black</item>
+        <item name="android:textColorSecondaryInverse">@color/cds_gray_02</item>
+        <item name="android:headerBackground">@color/cds_white</item>
+    </style>
+    <style name="CdsCalendarDatePickerDialogDark" parent="@android:style/Theme.Holo.Dialog">
+        <item name="android:windowBackground">@color/cds_gray_10</item>
+        <item name="android:textColor">@color/cds_gray_02</item>
+        <item name="android:datePickerStyle">@style/CdsCalendarDatePickerDark</item>
+    </style>
+    <style name="CdsCalendarDatePickerDialogLight" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:datePickerStyle">@style/CdsCalendarDatePickerLight</item>
+    </style>
+    <style name="CdsCalendarDatePickerHeaderTextStyleDark" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/cds_gray_10</item>
+    </style>
+    <style name="CdsCalendarDatePickerHeaderTextStyleLight" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/cds_white</item>
+    </style>
+    <style name="CdsCalendarDatePickerLight" parent="@android:style/Widget.DeviceDefault.DatePicker">
+        <item name="android:textColorPrimaryInverse">@color/cds_white</item>
+        <item name="android:textColorSecondaryInverse">@color/cds_white</item>
+        <item name="android:headerBackground">@color/cds_gray_10</item>
+    </style>
+    <style name="CdsSpinnerDatePicker" parent="@android:style/Widget.DeviceDefault.DatePicker">
+    </style>
+    <style name="CdsSpinnerDatePickerDialogDark" parent="@android:style/Theme.Holo.Dialog">
+        <item name="android:textColorPrimary">@color/cds_gray_02</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:datePickerStyle">@style/CdsSpinnerDatePicker</item>
+    </style>
+    <style name="CdsSpinnerDatePickerDialogLight" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:datePickerStyle">@style/CdsSpinnerDatePicker</item>
+    </style>
+    <style name="CdsSpinnerTimePicker" parent="">
+    </style>
+    <style name="CdsSpinnerTimePickerDialogDark" parent="@android:style/Theme.Holo.Dialog">
+        <item name="android:textColorPrimary">@color/cds_gray_02</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="CdsSpinnerTimePickerDialogLight" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="FBLiteThemeBase" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="colorControlActivated">@color/fds_blue_50</item>
+        <item name="colorPullToRefreshBackground">@color/white</item>
+        <item name="colorPullToRefreshForeground">@color/swipe_refresh_color</item>
+        <item name="colorSwitchThumbNormal">@color/switch_light</item>
+    </style>
+    <style name="ScreenTransitionLoadingDialog" parent="">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowEnterAnimation">@null</item>
+        <item name="android:windowExitAnimation">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="SpinnerExperiment" parent="@style/splashScreenTheme">
+        <item name="heightStyleExperiment">0xffffffff</item>
+    </style>
+    <style name="TransparentThemeLite" parent="@android:style/Theme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="WhiteRectangleAlertDialog" parent="@android:style/Theme.DeviceDefault.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/popup_background_rectangle_corners</item>
+        <item name="android:windowMinWidthMajor">85%</item>
+        <item name="android:windowMinWidthMinor">85%</item>
+    </style>
+    <style name="blackBackgroundTheme" parent="@style/FBLiteThemeBase">
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+    <style name="bottomIcon" parent="@style/icon">
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+    <style name="captureButton" parent="">
+        <item name="android:layout_width">109dp</item>
+        <item name="android:layout_height">109dp</item>
+    </style>
+    <style name="darkModeTheme" parent="@style/FBLiteThemeBase">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="dialogWithUnrecommendedAction" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
+        <item name="android:textColorPrimary">@color/gray_70</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="fbliteFeedSeekBar" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:maxHeight">4dp</item>
+        <item name="android:minHeight">4dp</item>
+    </style>
+    <style name="focusIndicatorView" parent="">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+    </style>
+    <style name="icon" parent="">
+        <item name="android:layout_width">44dp</item>
+        <item name="android:layout_height">44dp</item>
+    </style>
+    <style name="mediaPickerFilterDropdown" parent="@android:style/Widget.ListView.DropDown">
+        <item name="android:divider">@color/white</item>
+        <item name="android:dividerHeight">0dp</item>
+    </style>
+    <style name="mediaPickerFilterTheme" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:dropDownListViewStyle">@style/mediaPickerFilterDropdown</item>
+    </style>
+    <style name="nativeDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="splashScreenTheme" parent="@style/FBLiteThemeBase">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+    <style name="viewFinder" parent="">
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+    <style name="whiteBackgroundTheme" parent="@style/FBLiteThemeBase">
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+</resources>

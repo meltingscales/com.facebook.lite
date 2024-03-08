@@ -1,0 +1,23 @@
+22
+log
+m
+c
+z
+jnigraphics
+dl
+stdc++
+android
+memalign16 2
+sigmux 2
+e2emodule 2
+force_dlopen 5 2
+breakpad_cpp_helper 6 5 2
+c++_shared 8 5
+fb_xzdecoder 8 0
+superpack-jni 8 7 5 0
+android_aware_dlopen 11 0
+_everything_merged_1 13 4 3 1 0
+fb_mboost-lite 13 0
+linkerutils 13 9 1 0
+breakpad 16 13 9 1
+_everything_merged 17

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="__external__external_share_intent_label">Idagdag sa Lite</string>
+    <string name="common_google_play_services_unknown_issue">Nagkakaproblema ang %1$s sa mga serbisyo ng Google Play. Pakisubukan ulit.</string>
+    <string name="external_share_to_groups_intent_label">Mga Grupo Mo</string>
+    <string name="external_share_to_messaging_intent_label">Pagme-message</string>
+    <string name="external_share_to_story_intent_label">Story mo</string>
+</resources>

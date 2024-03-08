@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="__external__external_share_intent_label">Facebook Lite proqramına əlavə et</string>
+    <string name="accessibility_link_role">Keçid</string>
+    <string name="common_google_play_services_unknown_issue">%1$s tətbiqi ilə Google Play xidmətləri arasında problem var. Daha sonra yenidən cəhd edin.</string>
+    <string name="external_share_to_groups_intent_label">Qruplarınız</string>
+    <string name="external_share_to_messaging_intent_label">Yazışma</string>
+    <string name="external_share_to_story_intent_label">Hekayəniz</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="__external__external_share_intent_label">Adicionar ao Lite</string>
+    <string name="accessibility_link_role">Ligação</string>
+    <string name="common_google_play_services_unknown_issue">%1$s está a ter problemas com os Serviços do Google Play. Tente novamente.</string>
+    <string name="external_share_to_groups_intent_label">Os teus grupos</string>
+    <string name="external_share_to_messaging_intent_label">Mensagens</string>
+    <string name="external_share_to_story_intent_label">A tua história</string>
+</resources>

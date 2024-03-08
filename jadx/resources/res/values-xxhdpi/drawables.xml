@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="answer_icon">r/cf.png</drawable>
+    <drawable name="browser_ssl_lock">r/cg.png</drawable>
+    <drawable name="camcorder_icon">r/ch.png</drawable>
+    <drawable name="caspian_titlebar_icon_overflow">r/ci.png</drawable>
+    <drawable name="caution_triangle">r/cj.png</drawable>
+    <drawable name="checkmark_circle_filled">r/ck.png</drawable>
+    <drawable name="cross">r/cl.png</drawable>
+    <drawable name="decline_icon">r/cm.png</drawable>
+    <drawable name="fb_ic_refresh_right_outline_24">r/cn.png</drawable>
+    <drawable name="fb_ic_wireless_filled_20">r/co.g.png</drawable>
+    <drawable name="fb_ic_wireless_slash_filled_16">r/cp.g.png</drawable>
+    <drawable name="rtc_back_arrow">r/cq.png</drawable>
+    <drawable name="rtc_camcorder">r/cr.png</drawable>
+    <drawable name="share">r/cs.png</drawable>
+    <drawable name="sound_off">r/ct.png</drawable>
+    <drawable name="sound_on">r/cu.png</drawable>
+    <drawable name="spinner_large">r/cv.png</drawable>
+    <drawable name="sysnotif_default">r/cw.png</drawable>
+    <drawable name="video_full_screen_icon">r/cx.png</drawable>
+    <drawable name="video_gear_icon">r/cy.png</drawable>
+    <drawable name="video_pause_icon">r/cz.png</drawable>
+    <drawable name="video_play_icon">r/c0.png</drawable>
+    <drawable name="video_seek_bar_pause_icon">r/c1.png</drawable>
+    <drawable name="video_seek_bar_play_icon">r/c2.png</drawable>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="browser_ssl_lock">r/r.png</drawable>
+    <drawable name="camcorder_icon">r/s.png</drawable>
+    <drawable name="camcorder_icon_new">r/t.png</drawable>
+    <drawable name="caspian_titlebar_icon_overflow">r/u.png</drawable>
+    <drawable name="checkmark_circle_filled">r/v.png</drawable>
+    <drawable name="common_full_open_on_phone">r/w.png</drawable>
+    <drawable name="fb_ic_wireless_filled_20">r/x.g.png</drawable>
+    <drawable name="fb_ic_wireless_slash_filled_16">r/y.g.png</drawable>
+    <drawable name="fb_small_notification_widget">r/z.png</drawable>
+    <drawable name="spinner_large">r/0.png</drawable>
+    <drawable name="sysnotif_comment">r/1.png</drawable>
+    <drawable name="sysnotif_default">r/2.png</drawable>
+    <drawable name="sysnotif_friend_request">r/3.png</drawable>
+    <drawable name="sysnotif_invite">r/4.png</drawable>
+    <drawable name="sysnotif_message">r/5.png</drawable>
+    <drawable name="sysnotif_messenger">r/6.png</drawable>
+    <drawable name="sysnotif_profile_facebook">r/7.png</drawable>
+</resources>

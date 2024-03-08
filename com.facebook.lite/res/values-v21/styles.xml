@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CdsCalendarDatePickerDark" parent="@android:style/Widget.DeviceDefault.DatePicker">
+        <item name="android:textColorPrimaryInverse">@color/cds_black</item>
+        <item name="android:textColorSecondaryInverse">@color/cds_gray_02</item>
+        <item name="android:headerBackground">@color/cds_white</item>
+        <item name="android:dayOfWeekTextAppearance">@color/cds_white</item>
+        <item name="android:headerMonthTextAppearance">@style/CdsCalendarDatePickerHeaderTextStyleDark</item>
+        <item name="android:datePickerMode">calendar</item>
+    </style>
+    <style name="CdsCalendarDatePickerDialogDark" parent="@android:style/Theme.Holo.Dialog">
+        <item name="android:windowBackground">@color/cds_gray_10</item>
+        <item name="android:textColor">@color/cds_gray_02</item>
+        <item name="android:datePickerStyle">@style/CdsCalendarDatePickerDark</item>
+        <item name="android:colorControlActivated">@color/cds_gray_02</item>
+        <item name="android:headerMonthTextAppearance">@style/CdsCalendarDatePickerHeaderTextStyleDark</item>
+    </style>
+    <style name="CdsCalendarDatePickerLight" parent="@android:style/Widget.DeviceDefault.DatePicker">
+        <item name="android:textColorPrimaryInverse">@color/cds_white</item>
+        <item name="android:textColorSecondaryInverse">@color/cds_white</item>
+        <item name="android:headerBackground">@color/cds_gray_10</item>
+        <item name="android:headerMonthTextAppearance">@style/CdsCalendarDatePickerHeaderTextStyleLight</item>
+        <item name="android:datePickerMode">calendar</item>
+    </style>
+    <style name="CdsSpinnerDatePicker" parent="@android:style/Widget.DeviceDefault.DatePicker">
+        <item name="android:datePickerMode">spinner</item>
+    </style>
+    <style name="CdsSpinnerDatePickerDialogDark" parent="@android:style/Theme.Holo.Dialog">
+        <item name="android:textColorPrimary">@color/cds_gray_02</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:datePickerStyle">@style/CdsSpinnerDatePicker</item>
+        <item name="android:colorControlNormal">@color/cds_gray_02</item>
+    </style>
+    <style name="CdsSpinnerTimePicker">
+        <item name="android:timePickerMode">spinner</item>
+    </style>
+    <style name="CdsSpinnerTimePickerDialogDark" parent="@android:style/Theme.Holo.Dialog">
+        <item name="android:textColorPrimary">@color/cds_gray_02</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorControlNormal">@color/cds_gray_02</item>
+        <item name="android:timePickerStyle">@style/CdsSpinnerTimePicker</item>
+    </style>
+    <style name="CdsSpinnerTimePickerDialogLight" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:timePickerStyle">@style/CdsSpinnerTimePicker</item>
+    </style>
+    <style name="FBLiteThemeBase" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:colorControlActivated">@color/fds_blue_50</item>
+        <item name="colorControlActivated">@color/fds_blue_50</item>
+        <item name="colorPullToRefreshBackground">@color/white</item>
+        <item name="colorPullToRefreshForeground">@color/swipe_refresh_color</item>
+        <item name="colorSwitchThumbNormal">@color/switch_light</item>
+    </style>
+    <style name="blackBackgroundTheme" parent="@style/FBLiteThemeBase">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+    </style>
+    <style name="darkModeTheme" parent="@style/FBLiteThemeBase">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+    </style>
+    <style name="dialogWithUnrecommendedAction" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
+        <item name="android:textColorPrimary">@color/gray_70</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:colorAccent">@color/blue_60</item>
+    </style>
+    <style name="splashScreenTheme" parent="@style/FBLiteThemeBase">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+    </style>
+    <style name="whiteBackgroundTheme" parent="@style/FBLiteThemeBase">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+    </style>
+</resources>

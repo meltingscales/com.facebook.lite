@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="bottom|center" android:height="39.0dip" android:width="78.0dip" android:bottom="24.0dip">
+        <bitmap android:gravity="bottom|center" android:src="@raw/from_meta_logo" />
+    </item>
+</layer-list>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="__external__external_share_intent_label">Thêm vào Lite</string>
+    <string name="accessibility_link_role">Liên kết</string>
+    <string name="common_google_play_services_unknown_issue">%1$s đang gặp sự cố với Dịch vụ Google Play. Hãy thử lại.</string>
+    <string name="external_share_to_groups_intent_label">Nhóm của bạn</string>
+    <string name="external_share_to_messaging_intent_label">Nhắn tin</string>
+    <string name="external_share_to_story_intent_label">Tin của bạn</string>
+</resources>

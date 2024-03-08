@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="__external__external_share_intent_label">Lite වෙත එක් කරන්න</string>
+    <string name="accessibility_link_role">සබැඳිය</string>
+    <string name="common_google_play_services_unknown_issue">%1$s හට Google Play සේවා සමගින් ගැටලු ඇත. කරුණාකර නැවත උත්සාහ කරන්න.</string>
+    <string name="external_share_to_groups_intent_label">ඔබේ සමූහ</string>
+    <string name="external_share_to_messaging_intent_label">පණිවිඩ යැවීම</string>
+    <string name="external_share_to_story_intent_label">ඔබේ කතන්දරය</string>
+</resources>

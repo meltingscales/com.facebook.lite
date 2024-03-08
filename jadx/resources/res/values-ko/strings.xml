@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="__external__external_share_intent_label">Lite에 추가</string>
+    <string name="accessibility_link_role">링크</string>
+    <string name="common_google_play_services_unknown_issue">%1$s에서 Google Play 서비스를 사용하는 데 문제가 있습니다. 다시 시도하세요.</string>
+    <string name="external_share_to_groups_intent_label">내 그룹</string>
+    <string name="external_share_to_messaging_intent_label">메시지</string>
+    <string name="external_share_to_story_intent_label">내 스토리</string>
+</resources>

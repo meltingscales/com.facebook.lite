@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="browser_ssl_lock">r/bt.png</drawable>
+    <drawable name="camcorder_icon">r/bu.png</drawable>
+    <drawable name="camcorder_icon_new">r/bv.png</drawable>
+    <drawable name="caspian_titlebar_icon_overflow">r/bw.png</drawable>
+    <drawable name="checkmark_circle_filled">r/bx.png</drawable>
+    <drawable name="client_media_picker_fast_scrubber">r/by.png</drawable>
+    <drawable name="client_media_picker_fast_scrubber_dark">r/bz.png</drawable>
+    <drawable name="common_full_open_on_phone">r/b0.png</drawable>
+    <drawable name="cross">r/b1.png</drawable>
+    <drawable name="fb_ic_wireless_filled_20">r/b2.g.png</drawable>
+    <drawable name="fb_ic_wireless_slash_filled_16">r/b3.g.png</drawable>
+    <drawable name="ic_accept_call_action">r/b4.png</drawable>
+    <drawable name="ic_arrow_back_white_18dp">r/b5.png</drawable>
+    <drawable name="ic_check_white_18dp">r/b6.png</drawable>
+    <drawable name="ic_dark_back_arrow_24">r/b7.png</drawable>
+    <drawable name="ic_end_call_action">r/b8.png</drawable>
+    <drawable name="photo_filled_24_icon">r/b9.png</drawable>
+    <drawable name="share">r/b_.png</drawable>
+    <drawable name="spinner_large">r/b-.png</drawable>
+    <drawable name="sysnotif_default">r/ca.png</drawable>
+    <drawable name="sysnotif_friend_request">r/cb.png</drawable>
+    <drawable name="sysnotif_invite">r/cc.png</drawable>
+    <drawable name="sysnotif_message">r/cd.png</drawable>
+    <drawable name="sysnotif_messenger">r/ce.png</drawable>
+</resources>

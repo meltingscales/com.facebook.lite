@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="__external__external_share_intent_label">Add to Lite</string>
+    <string name="accessibility_link_role">Link</string>
+    <string name="androidx_startup">androidx.startup</string>
+    <string name="app_full_name">Facebook Lite</string>
+    <string name="app_short_name">Lite</string>
+    <string name="common_google_play_services_enable_button">Enable</string>
+    <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_install_button">Install</string>
+    <string name="common_google_play_services_install_text">"%1$s won't run without Google Play services, which are missing from your device."</string>
+    <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play services availability</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text">"%1$s won't run without Google Play services, which are not supported by your device."</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_google_play_services_update_text">"%1$s won't run unless you update Google Play services."</string>
+    <string name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text">"%1$s won't run without Google Play services, which are currently updating."</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="default_web_client_id">622912139302-p5kle555cs5cfom8idmrdt1p3dlmd8d8.apps.googleusercontent.com</string>
+    <string name="external_share_to_groups_intent_label">Your groups</string>
+    <string name="external_share_to_messaging_intent_label">Messaging</string>
+    <string name="external_share_to_story_intent_label">Your story</string>
+    <string name="google_api_key">AIzaSyBWJZPw7wVi-NQEViQV9ZnadO-xbX4S8o0</string>
+    <string name="google_app_id">1:622912139302:android:472dc569f8dd50f9</string>
+    <string name="lite_asset_statements">[{ \"include\": \"https://www.facebook.com/.well-known/assetlinks.json\" },{ \"relation\": [\"delegate_permission/common.handle_all_urls\"], \"target\": { \"namespace\": \"web\", \"site\": \"https://m.facebook.com\" } },{ \"relation\": [\"delegate_permission/common.handle_all_urls\"], \"target\": { \"namespace\": \"web\", \"site\": \"https://www.facebook.com\" } }]</string>
+    <string name="project_id">fb-messaging-b8df1</string>
+</resources>

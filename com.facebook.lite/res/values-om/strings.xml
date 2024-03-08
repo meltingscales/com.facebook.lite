@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="__external__external_share_intent_label">"Lite'tti dabali"</string>
+    <string name="external_share_to_groups_intent_label">Gareewwanke</string>
+    <string name="external_share_to_messaging_intent_label">Dhamsergaa</string>
+    <string name="external_share_to_story_intent_label">Waayessaake</string>
+</resources>

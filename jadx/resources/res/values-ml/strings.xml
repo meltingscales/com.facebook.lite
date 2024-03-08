@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="__external__external_share_intent_label">Lite-ലേക്ക് ചേർക്കുക</string>
+    <string name="accessibility_link_role">ലിങ്ക്</string>
+    <string name="common_google_play_services_unknown_issue">Google Play സേവനങ്ങളുമായി ബന്ധപ്പെട്ട് %1$s ആപ്പിനെന്തോ പ്രശ്നമുണ്ട്. വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="external_share_to_groups_intent_label">നിങ്ങളുടെ ഗ്രൂപ്പുകള്‍</string>
+    <string name="external_share_to_messaging_intent_label">സന്ദേശമയയ്‌ക്കൽ</string>
+    <string name="external_share_to_story_intent_label">നിങ്ങളുടെ സ്‌റ്റോറി</string>
+</resources>

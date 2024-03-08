@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/__static_notification_custom_layout_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/custom_push_notifications_image_buttons_wrapped" android:paddingLeft="@dimen/cl_left" android:paddingRight="@dimen/cl_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cl_top" android:layout_marginBottom="10.0dip" android:layout_weight="1.0" android:paddingStart="@dimen/cl_left" android:paddingEnd="@dimen/cl_right">
+            <LinearLayout android:orientation="horizontal" android:id="@id/header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cl_header_left" android:layout_marginBottom="@dimen/cl_header_bottom" android:layout_marginStart="@dimen/cl_header_left">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/small_icon" android:layout_width="@dimen/cl_icon_size" android:layout_height="@dimen/cl_icon_size" android:layout_marginRight="@dimen/cl_icon_right" android:tint="@color/__static_notification_custom_layout_blue_color" android:layout_marginEnd="@dimen/cl_icon_right" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/__static_notification_custom_layout_blue_color" android:layout_gravity="center_vertical" android:id="@id/app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/cl_app_name_right" android:layout_marginBottom="@dimen/cl_header_text_bottom" android:layout_marginEnd="@dimen/cl_app_name_right" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/subtext_separator" android:layout_width="0.0dip" android:layout_height="18.0sp" android:layout_weight="2.0">
+                    <ImageView android:layout_gravity="center" android:background="@drawable/custom_push_notifications_dot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/cl_header_right_space" android:layout_marginEnd="@dimen/cl_header_right_space" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/__static_notification_custom_layout_info_color" android:ellipsize="end" android:id="@id/subtext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/cl_header_right_space" android:maxLines="1" android:layout_marginEnd="@dimen/cl_header_right_space" />
+                </LinearLayout>
+                <FrameLayout android:id="@id/timestamp_separator" android:layout_width="wrap_content" android:layout_height="18.0sp" android:layout_marginRight="@dimen/cl_header_right_space" android:layout_marginEnd="@dimen/cl_header_right_space">
+                    <ImageView android:layout_gravity="center" android:background="@drawable/custom_push_notifications_dot" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </FrameLayout>
+                <TextView android:textSize="12.0sp" android:textColor="@color/__static_notification_custom_layout_info_color" android:layout_gravity="center_vertical" android:id="@id/timestamp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cl_header_text_bottom" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/image_holder" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cl_text_left" android:layout_marginStart="@dimen/cl_text_left">
+                    <TextView android:textSize="14.0sp" android:textColor="@color/__static_notification_custom_layout_realtitle_color" android:ellipsize="end" android:id="@id/realtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/__static_notification_custom_layout_realtitle_color" android:ellipsize="end" android:id="@id/subtitle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/__static_notification_custom_layout_title_color" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+                </LinearLayout>
+            </LinearLayout>
+            <FrameLayout android:id="@id/filler" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/cl_button_filler" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="end" android:id="@id/big_preview_image_holder" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.0">
+            <ImageView android:id="@id/big_preview_image" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="fitCenter" android:adjustViewBounds="true" android:maxWidth="110.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/buttonfiller" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

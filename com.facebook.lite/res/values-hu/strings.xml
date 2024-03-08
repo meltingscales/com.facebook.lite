@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="__external__external_share_intent_label">Megosztás a Lite-ban</string>
+    <string name="accessibility_link_role">Hivatkozás</string>
+    <string name="common_google_play_services_unknown_issue">A(z) %1$s alkalmazás problémába ütközött a Google Play-szolgáltatások használata során. Próbálkozzon újra.</string>
+    <string name="external_share_to_groups_intent_label">A csoportjaid</string>
+    <string name="external_share_to_messaging_intent_label">Üzenetek</string>
+    <string name="external_share_to_story_intent_label">A történeted</string>
+</resources>

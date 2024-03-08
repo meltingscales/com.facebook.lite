@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="__external__external_share_intent_label">Lite ਵਿੱਚ ਸ਼ਾਮਲ ਕਰੋ</string>
+    <string name="accessibility_link_role">ਲਿੰਕ ਕਰੋ</string>
+    <string name="common_google_play_services_unknown_issue">%1$s ਨੂੰ Google Play ਸੇਵਾਵਾਂ ਨਾਲ ਸਮੱਸਿਆ ਆ ਰਹੀ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+    <string name="external_share_to_groups_intent_label">ਤੁਹਾਡੇ ਗਰੁੱਪ</string>
+    <string name="external_share_to_messaging_intent_label">ਮੈਸੇਜਿੰਗ</string>
+    <string name="external_share_to_story_intent_label">ਤੁਹਾਡੀ ਕਹਾਣੀ</string>
+</resources>

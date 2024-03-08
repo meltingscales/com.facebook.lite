@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="__external__external_share_intent_label">In Lite posten</string>
+    <string name="common_google_play_services_unknown_issue">%1$s hat Probleme mit Google Play-Diensten. Bitte versuche es noch einmal.</string>
+    <string name="external_share_to_groups_intent_label">Deine Gruppen</string>
+    <string name="external_share_to_story_intent_label">Deine Story</string>
+</resources>

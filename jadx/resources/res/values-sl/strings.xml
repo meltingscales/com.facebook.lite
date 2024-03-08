@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="__external__external_share_intent_label">Dodaj v Lite</string>
+    <string name="accessibility_link_role">Povezava</string>
+    <string name="common_google_play_services_unknown_issue">Aplikacija %1$s ima težave s storitvami Google Play. Poskusite znova.</string>
+    <string name="external_share_to_groups_intent_label">Tvoje skupine</string>
+    <string name="external_share_to_messaging_intent_label">Sporočanje</string>
+    <string name="external_share_to_story_intent_label">Tvoja zgodba</string>
+</resources>

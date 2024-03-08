@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider android:minWidth="96.0dip" android:minHeight="96.0dip" android:updatePeriodMillis="1800000" android:initialLayout="@layout/small_app_widget_initial_layout" android:previewImage="@drawable/fb_small_notification_widget" android:resizeMode="horizontal|vertical" android:minResizeWidth="64.0dip" android:minResizeHeight="48.0dip" android:widgetCategory="home_screen" android:maxResizeHeight="360.0dip" android:targetCellWidth="2" android:targetCellHeight="2"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="cds_dark_mode" format="boolean">
+    </attr>
+    <attr name="cds_usage_accent" format="reference|color">
+    </attr>
+    <attr name="cds_usage_accent_deemphasized" format="reference|color">
+    </attr>
+    <attr name="cds_usage_always_white" format="reference|color">
+    </attr>
+    <attr name="cds_usage_attachment_footer_background" format="reference|color">
+    </attr>
+    <attr name="cds_usage_background_deemphasized" format="reference|color">
+    </attr>
+    <attr name="cds_usage_black_solidarity_primary_button_background" format="reference|color">
+    </attr>
+    <attr name="cds_usage_black_solidarity_primary_button_text" format="reference|color">
+    </attr>
+    <attr name="cds_usage_blue_badge" format="reference|color">
+    </attr>
+    <attr name="cds_usage_blue_link" format="reference|color">
+    </attr>
+    <attr name="cds_usage_border_focused" format="reference|color">
+    </attr>
+    <attr name="cds_usage_border_unfocused" format="reference|color">
+    </attr>
+    <attr name="cds_usage_bottom_sheet_handle" format="reference|color">
+    </attr>
+    <attr name="cds_usage_card_background" format="reference|color">
+    </attr>
+    <attr name="cds_usage_card_background_flat" format="reference|color">
+    </attr>
+    <attr name="cds_usage_comment_background" format="reference|color">
+    </attr>
+    <attr name="cds_usage_comment_threading_lines" format="reference|color">
+    </attr>
+    <attr name="cds_usage_date_picker_accent" format="reference|color">
+    </attr>
+    <attr name="cds_usage_disabled_icon" format="reference|color">
+    </attr>
+    <attr name="cds_usage_disabled_text" format="reference|color">
+    </attr>
+    <attr name="cds_usage_divider" format="reference|color">
+    </attr>
+    <attr name="cds_usage_event_date" format="reference|color">
+    </attr>
+    <attr name="cds_usage_fb_app_wordmark" format="reference|color">
+    </attr>
+    <attr name="cds_usage_fb_company_wordmark" format="reference|color">
+    </attr>
+    <attr name="cds_usage_glimmer_index_0" format="reference|color">
+    </attr>
+    <attr name="cds_usage_glimmer_index_1" format="reference|color">
+    </attr>
+    <attr name="cds_usage_glimmer_index_2" format="reference|color">
+    </attr>
+    <attr name="cds_usage_glimmer_index_3" format="reference|color">
+    </attr>
+    <attr name="cds_usage_glimmer_index_4" format="reference|color">
+    </attr>
+    <attr name="cds_usage_glimmer_on_white_background" format="reference|color">
+    </attr>
+    <attr name="cds_usage_hidden_comment_overlay" format="reference|color">
+    </attr>
+    <attr name="cds_usage_high_contrast_button_pressed" format="reference|color">
+    </attr>
+    <attr name="cds_usage_hosted_view_selected_state" format="reference|color">
+    </attr>
+    <attr name="cds_usage_hover_overlay" format="reference|color">
+    </attr>
+    <attr name="cds_usage_inline_link" format="reference|color">
+    </attr>
+    <attr name="cds_usage_list_cell_chevron" format="reference|color">
+    </attr>
+    <attr name="cds_usage_media_inner_border" format="reference|color">
+    </attr>
+    <attr name="cds_usage_media_pressed" format="reference|color">
+    </attr>
+    <attr name="cds_usage_messenger_blue" format="reference|color">
+    </attr>
+    <attr name="cds_usage_nav_bar_background" format="reference|color">
+    </attr>
+    <attr name="cds_usage_nav_list_selected" format="reference|color">
+    </attr>
+    <attr name="cds_usage_negative" format="reference|color">
+    </attr>
+    <attr name="cds_usage_negative_deemphasized" format="reference|color">
+    </attr>
+    <attr name="cds_usage_new_notification_background" format="reference|color">
+    </attr>
+    <attr name="cds_usage_non_media_pressed" format="reference|color">
+    </attr>
+    <attr name="cds_usage_non_media_pressed_on_dark" format="reference|color">
+    </attr>
+    <attr name="cds_usage_notification_badge" format="reference|color">
+    </attr>
+    <attr name="cds_usage_optimistic_post_tint" format="reference|color">
+    </attr>
+    <attr name="cds_usage_overlay_on_media" format="reference|color">
+    </attr>
+    <attr name="cds_usage_overlay_on_surface" format="reference|color">
+    </attr>
+    <attr name="cds_usage_placeholder_icon" format="reference|color">
+    </attr>
+    <attr name="cds_usage_placeholder_image" format="reference|color">
+    </attr>
+    <attr name="cds_usage_placeholder_text" format="reference|color">
+    </attr>
+    <attr name="cds_usage_placeholder_text_on_media" format="reference|color">
+    </attr>
+    <attr name="cds_usage_popover_background" format="reference|color">
+    </attr>
+    <attr name="cds_usage_positive" format="reference|color">
+    </attr>
+    <attr name="cds_usage_primary_button_background" format="reference|color">
+    </attr>
+    <attr name="cds_usage_primary_button_background_on_media" format="reference|color">
+    </attr>
+    <attr name="cds_usage_primary_button_icon" format="reference|color">
+    </attr>
+    <attr name="cds_usage_primary_button_icon_on_media" format="reference|color">
+    </attr>
+    <attr name="cds_usage_primary_button_text" format="reference|color">
+    </attr>
+    <attr name="cds_usage_primary_button_text_on_media" format="reference|color">
+    </attr>
+    <attr name="cds_usage_primary_deemphasized_button_background" format="reference|color">
+    </attr>
+    <attr name="cds_usage_primary_deemphasized_button_icon" format="reference|color">
+    </attr>
+    <attr name="cds_usage_primary_deemphasized_button_text" format="reference|color">
+    </attr>
+    <attr name="cds_usage_primary_disabled_button_background" format="reference|color">
+    </attr>
+    <attr name="cds_usage_primary_disabled_button_icon" format="reference|color">
+    </attr>
+    <attr name="cds_usage_primary_icon" format="reference|color">
+    </attr>
+    <attr name="cds_usage_primary_icon_on_media" format="reference|color">
+    </attr>
+    <attr name="cds_usage_primary_text" format="reference|color">
+    </attr>
+    <attr name="cds_usage_primary_text_on_media" format="reference|color">
+    </attr>
+    <attr name="cds_usage_primary_ui_shadow_background" format="reference|color">
+    </attr>
+    <attr name="cds_usage_progress_ring_on_media_background" format="reference|color">
+    </attr>
+    <attr name="cds_usage_progress_ring_on_media_foreground" format="reference|color">
+    </attr>
+    <attr name="cds_usage_progress_ring_on_neutral_foreground" format="reference|color">
+    </attr>
+    <attr name="cds_usage_secondary_button_background" format="reference|color">
+    </attr>
+    <attr name="cds_usage_secondary_button_background_on_color" format="reference|color">
+    </attr>
+    <attr name="cds_usage_secondary_button_background_on_media" format="reference|color">
+    </attr>
+    <attr name="cds_usage_secondary_button_icon" format="reference|color">
+    </attr>
+    <attr name="cds_usage_secondary_button_icon_on_media" format="reference|color">
+    </attr>
+    <attr name="cds_usage_secondary_button_pressed" format="reference|color">
+    </attr>
+    <attr name="cds_usage_secondary_button_stroke" format="reference|color">
+    </attr>
+    <attr name="cds_usage_secondary_button_text" format="reference|color">
+    </attr>
+    <attr name="cds_usage_secondary_button_text_on_media" format="reference|color">
+    </attr>
+    <attr name="cds_usage_secondary_disabled_button_icon" format="reference|color">
+    </attr>
+    <attr name="cds_usage_secondary_disabled_button_stroke" format="reference|color">
+    </attr>
+    <attr name="cds_usage_secondary_disabled_button_text" format="reference|color">
+    </attr>
+    <attr name="cds_usage_secondary_icon" format="reference|color">
+    </attr>
+    <attr name="cds_usage_secondary_text" format="reference|color">
+    </attr>
+    <attr name="cds_usage_secondary_text_on_media" format="reference|color">
+    </attr>
+    <attr name="cds_usage_stepper_active" format="reference|color">
+    </attr>
+    <attr name="cds_usage_stepper_inactive" format="reference|color">
+    </attr>
+    <attr name="cds_usage_surface_background" format="reference|color">
+    </attr>
+    <attr name="cds_usage_switch_active" format="reference|color">
+    </attr>
+    <attr name="cds_usage_switch_active_accent" format="reference|color">
+    </attr>
+    <attr name="cds_usage_switch_active_accent_disabled" format="reference|color">
+    </attr>
+    <attr name="cds_usage_switch_active_disabled" format="reference|color">
+    </attr>
+    <attr name="cds_usage_switch_active_track_android" format="reference|color">
+    </attr>
+    <attr name="cds_usage_switch_active_track_android_disabled" format="reference|color">
+    </attr>
+    <attr name="cds_usage_switch_inactive" format="reference|color">
+    </attr>
+    <attr name="cds_usage_switch_inactive_accent" format="reference|color">
+    </attr>
+    <attr name="cds_usage_switch_inactive_accent_disabled" format="reference|color">
+    </attr>
+    <attr name="cds_usage_switch_inactive_disabled" format="reference|color">
+    </attr>
+    <attr name="cds_usage_text_highlight" format="reference|color">
+    </attr>
+    <attr name="cds_usage_text_input_bar_background" format="reference|color">
+    </attr>
+    <attr name="cds_usage_toast_background" format="reference|color">
+    </attr>
+    <attr name="cds_usage_toast_text_link" format="reference|color">
+    </attr>
+    <attr name="cds_usage_toggle_active_background" format="reference|color">
+    </attr>
+    <attr name="cds_usage_toggle_active_icon" format="reference|color">
+    </attr>
+    <attr name="cds_usage_toggle_active_text" format="reference|color">
+    </attr>
+    <attr name="cds_usage_ui_background" format="reference|color">
+    </attr>
+    <attr name="cds_usage_warning" format="reference|color">
+    </attr>
+    <attr name="colorControlActivated" format="color">
+    </attr>
+    <attr name="colorPullToRefreshBackground" format="color">
+    </attr>
+    <attr name="colorPullToRefreshForeground" format="color">
+    </attr>
+    <attr name="colorSwitchThumbNormal" format="color">
+    </attr>
+    <attr name="enablePinchZoom" format="boolean">
+    </attr>
+    <attr name="fastScrollEnabled" format="boolean">
+    </attr>
+    <attr name="fastScrollHorizontalThumbDrawable" format="reference">
+    </attr>
+    <attr name="fastScrollHorizontalTrackDrawable" format="reference">
+    </attr>
+    <attr name="fastScrollVerticalThumbDrawable" format="reference">
+    </attr>
+    <attr name="fastScrollVerticalTrackDrawable" format="reference">
+    </attr>
+    <attr name="heightStyleExperiment" format="dimension">
+        <flag name="match_parent" value="-1" />
+        <flag name="wrap_content" value="-2" />
+    </attr>
+    <attr name="initialCameraFacing">
+        <enum name="back" value="0" />
+        <enum name="front" value="1" />
+    </attr>
+    <attr name="layoutManager" format="string">
+    </attr>
+    <attr name="loadingBarBackgroundColor" format="color">
+    </attr>
+    <attr name="lockMediaOrientation" format="boolean">
+    </attr>
+    <attr name="loopVideo" format="boolean">
+    </attr>
+    <attr name="photoCaptureQuality">
+        <enum name="deactivated" value="3" />
+        <enum name="high" value="0" />
+        <enum name="low" value="2" />
+        <enum name="medium" value="1" />
+    </attr>
+    <attr name="preferredCameraApi">
+        <enum name="camera1" value="1" />
+        <enum name="camera2" value="2" />
+    </attr>
+    <attr name="recyclerViewStyle" format="reference">
+    </attr>
+    <attr name="reverseLayout" format="boolean">
+    </attr>
+    <attr name="showLoadingText" format="boolean">
+    </attr>
+    <attr name="showVideoControls" format="boolean">
+    </attr>
+    <attr name="singleTapGesture">
+        <flag name="disabled" value="0x0" />
+        <flag name="focus" value="0x1" />
+        <flag name="metering" value="0x2" />
+    </attr>
+    <attr name="spanCount" format="integer">
+    </attr>
+    <attr name="stackFromEnd" format="boolean">
+    </attr>
+    <attr name="swipeRefreshLayoutProgressSpinnerBackgroundColor" format="color">
+    </attr>
+    <attr name="videoBackgroundColor" format="color">
+    </attr>
+    <attr name="videoCaptureQuality">
+        <enum name="deactivated" value="3" />
+        <enum name="high" value="0" />
+        <enum name="low" value="2" />
+        <enum name="medium" value="1" />
+    </attr>
+</resources>

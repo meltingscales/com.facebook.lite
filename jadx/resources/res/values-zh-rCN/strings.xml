@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="__external__external_share_intent_label">发布到 Lite</string>
+    <string name="accessibility_link_role">链接</string>
+    <string name="common_google_play_services_unknown_issue">%1$s无法访问 Google Play 服务，请重试。</string>
+    <string name="external_share_to_groups_intent_label">你的小组</string>
+    <string name="external_share_to_messaging_intent_label">消息</string>
+    <string name="external_share_to_story_intent_label">你的快拍</string>
+</resources>

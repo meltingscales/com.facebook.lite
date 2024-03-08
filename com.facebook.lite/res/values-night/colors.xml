@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="__static_notification_custom_layout_background">#ff000000</color>
+    <color name="__static_notification_custom_layout_button_background">#ff242526</color>
+    <color name="__static_notification_custom_layout_info_color">#ffb0b3b8</color>
+    <color name="__static_notification_custom_layout_realtitle_color">#ffe4e6eb</color>
+    <color name="__static_notification_custom_layout_title_color">#ffb0b3b8</color>
+    <color name="notif_widget_background">#ff000000</color>
+    <color name="splash_screen_background">#ff242526</color>
+</resources>

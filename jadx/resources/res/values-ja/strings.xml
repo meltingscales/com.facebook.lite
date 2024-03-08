@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="__external__external_share_intent_label">Liteに追加</string>
+    <string name="accessibility_link_role">リンク</string>
+    <string name="common_google_play_services_unknown_issue">「%1$s」で Google Play 開発者サービスに問題が発生しています。もう一度お試しください。</string>
+    <string name="external_share_to_groups_intent_label">グループ</string>
+    <string name="external_share_to_messaging_intent_label">メッセージ</string>
+    <string name="external_share_to_story_intent_label">ストーリーズ</string>
+</resources>

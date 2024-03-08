@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="__external__external_share_intent_label">Lägg till i Lite</string>
+    <string name="accessibility_link_role">Länk</string>
+    <string name="common_google_play_services_unknown_issue">Det har uppstått ett fel mellan %1$s och Google Play-tjänsterna. Försök igen.</string>
+    <string name="external_share_to_groups_intent_label">Dina grupper</string>
+    <string name="external_share_to_messaging_intent_label">Meddelanden</string>
+    <string name="external_share_to_story_intent_label">Din händelse</string>
+</resources>

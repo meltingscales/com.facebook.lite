@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_gravity="top" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="start" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:layout_alignParentLeft="true" android:layout_alignParentStart="true">
+            <TextView android:textSize="15sp" android:textColor="@android:color/black" android:id="@+id/close_button" android:padding="8dp" android:focusable="true" android:visibility="visible" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginStart="4dp"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="8dp">
+            <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="@android:color/black" android:id="@+id/app_name_text_view" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="12sp" android:textColor="#ff65676b" android:id="@+id/url_text_view" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <ProgressBar android:id="@+id/checkout_webview_progress_bar" android:visibility="visible" android:layout_width="match_parent" android:layout_height="1dp" style="?android:attr/progressBarStyleHorizontal"/>
+    <com.facebook.secure.securewebview.SecureWebView android:id="@+id/checkout_web_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/error_component" android:background="@android:color/white" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/error_icon" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cross"/>
+        <TextView android:textSize="24dp" android:textStyle="bold" android:textColor="@android:color/black" android:id="@+id/error_message_title" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="center"/>
+        <TextView android:textSize="13dp" android:textColor="#ff65676b" android:id="@+id/error_message_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="center"/>
+    </LinearLayout>
+</LinearLayout>

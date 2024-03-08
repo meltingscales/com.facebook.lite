@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="__external__external_share_intent_label">เพิ่มใน Lite</string>
+    <string name="accessibility_link_role">ลิงก์</string>
+    <string name="common_google_play_services_unknown_issue">%1$s มีปัญหาเกี่ยวกับบริการของ Google Play โปรดลองอีกครั้ง</string>
+    <string name="external_share_to_groups_intent_label">กลุ่มของคุณ</string>
+    <string name="external_share_to_messaging_intent_label">การส่งข้อความ</string>
+    <string name="external_share_to_story_intent_label">สตอรี่ของคุณ</string>
+</resources>

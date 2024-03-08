@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="__external__external_share_intent_label">لائٹ میں شامل کریں</string>
+    <string name="accessibility_link_role">لنک</string>
+    <string name="common_google_play_services_unknown_issue">‏%1$s کو Google Play سروسز کے ساتھ مسئلہ پیش آ رہا ہے۔ براہ کرم دوبارہ کوشش کریں۔</string>
+    <string name="external_share_to_groups_intent_label">آپ کے گروپس</string>
+    <string name="external_share_to_messaging_intent_label">میسجنگ</string>
+    <string name="external_share_to_story_intent_label">آپ کی سٹوری</string>
+</resources>

@@ -1,0 +1,236 @@
+[
+  {
+    "disabled": false,
+    "hash": "d34ca80f5063aa43677595b6e71f96f1ce7acb4c741da6b84a71c74f120aab42",
+    "name": "blokscamera",
+    "path": "blokscamera.apk"
+  },
+  {
+    "disabled": false,
+    "hash": "ef28f38bfd3b61ec799fa7ebd4219c12e5330ad818b03c172b571a86ad0741e9",
+    "name": "boost",
+    "path": "boost.apk"
+  },
+  {
+    "disabled": false,
+    "hash": "e5ea5491779d2cf2a5f394cc92cf4276b69b1b377a89489353b0aee420605849",
+    "name": "camera",
+    "path": "camera.apk"
+  },
+  {
+    "disabled": false,
+    "hash": "65b3ce097ddc9ccda0d7dd48d99bc0272654a8f0b2c26766a098fb85ddcbc537",
+    "name": "fizz",
+    "path": "fizz.apk"
+  },
+  {
+    "disabled": false,
+    "hash": "e8d228a69ee26050aded515316f524b5841fe855746ac0f487e73b8ea4452f4d",
+    "name": "heroplayer",
+    "path": "heroplayer.apk"
+  },
+  {
+    "disabled": false,
+    "hash": "cad2fc03971f726b8d18c0508fa2798ff898082a6858c69a8962194cebb828f3",
+    "name": "inappbrowser",
+    "path": "inappbrowser.apk"
+  },
+  {
+    "disabled": false,
+    "hash": "6c971af735794a7255e8ccce048e679622638aa1995643230a75e2409215e484",
+    "name": "libunwindstack",
+    "path": "libunwindstack.apk"
+  },
+  {
+    "disabled": false,
+    "hash": "6a84e65fc4c0d99c6b33a5b08fae2cbf3dfada976b4265751b55cf667108b366",
+    "name": "mediacompositionplayer",
+    "path": "mediacompositionplayer.apk"
+  },
+  {
+    "disabled": false,
+    "hash": "9b7f5b3c22d13a18de625d2c400a9d5ccd761979006965c2ca1807d3b4d4abd3",
+    "name": "mediastreaming",
+    "path": "mediastreaming.apk"
+  },
+  {
+    "disabled": false,
+    "hash": "5b99666812b4b3792dfe5f454871579d160dac9792c439cd6211662738d2d0a1",
+    "name": "mns",
+    "path": "mns.apk"
+  },
+  {
+    "disabled": false,
+    "hash": "5184d4b27a2e10e32863130badd90197deb65925ffa2442ca10d5dd2738ff25c",
+    "name": "mnshttp",
+    "path": "mnshttp.apk"
+  },
+  {
+    "disabled": false,
+    "hash": "db05f585257f270bca5b3f858a39f805d39a688e4820a8b14d103e729c9072bf",
+    "name": "msys",
+    "path": "msys.apk"
+  },
+  {
+    "disabled": false,
+    "hash": "cc2c98b30817b2c39c1abde4aa81331b5bfa5de9ca6eb5539b5cb4cd5f36273e",
+    "name": "msysinfra",
+    "path": "msysinfra.apk"
+  },
+  {
+    "disabled": false,
+    "hash": "cee299d0662f0c4318dba013dc3ad2d457a43ec741fd9112a20ce7728b93cbfb",
+    "name": "profilo",
+    "path": "profilo.apk"
+  },
+  {
+    "disabled": false,
+    "hash": "52cde0b5612114ceddd6f138d72690326e62543257c803b91353042a281c5aca",
+    "name": "pytorch",
+    "path": "pytorch.apk"
+  },
+  {
+    "disabled": false,
+    "hash": "fcb176097f90a38575d42d1c359e78fae6d2b344242e7e7d46ff01ae3f946d10",
+    "name": "rtc",
+    "path": "rtc.apk"
+  },
+  {
+    "disabled": false,
+    "hash": "ba8534e97c8dd2ee0cb0f11c8e0f036913e4f946ea5ecd20256eb973f13b2591",
+    "name": "s_1214477034",
+    "path": "s_1214477034.apk"
+  },
+  {
+    "disabled": false,
+    "hash": "d7189a69bd0967a8a2cd34b081f751071fb21c91502e5794eefbd3828a06ce0f",
+    "name": "s_blokscamera_boost",
+    "path": "s_blokscamera_boost.apk"
+  },
+  {
+    "disabled": false,
+    "hash": "dd22362575c4358aa59ff080254d1e0e56a2a8512197678f0d1914b9a6e7383b",
+    "name": "s_blokscamera_camera",
+    "path": "s_blokscamera_camera.apk"
+  },
+  {
+    "disabled": false,
+    "hash": "dda102a89ba1ec6598ec94b28bd532eaa5bf0860f1721323fb79f7ab28ba1c95",
+    "name": "s_blokscamera_mediacompositionplayer",
+    "path": "s_blokscamera_mediacompositionplayer.apk"
+  },
+  {
+    "disabled": false,
+    "hash": "40efe100fdab5ca8b43cbf35d328329c4dc0cc3838ff43261b8dc2e49ce8966a",
+    "name": "s_blokscamera_mediacompositionplayer_rtc",
+    "path": "s_blokscamera_mediacompositionplayer_rtc.apk"
+  },
+  {
+    "disabled": false,
+    "hash": "3c3b71f29b0471dca0321dfcb456c7c049c05924181f18a1be31773e469feba4",
+    "name": "s_blokscamera_msysinfra",
+    "path": "s_blokscamera_msysinfra.apk"
+  },
+  {
+    "disabled": false,
+    "hash": "9eda7bc9b97597a640bb6eff12346f2d5da3827b7c8265ed7f6c2981227dde44",
+    "name": "s_blokscamera_rtc",
+    "path": "s_blokscamera_rtc.apk"
+  },
+  {
+    "disabled": true,
+    "hash": "f2687e6230cf660bda104f89ad5581a5e1515a3e7e0d5d80736ea23dcab357fd",
+    "name": "s_boost_mediastreaming",
+    "path": "s_boost_mediastreaming.apk"
+  },
+  {
+    "disabled": false,
+    "hash": "755b8e73ceae9d4b928d7575498329e0bad8e0682533466386a83f64eead9329",
+    "name": "s_boost_profilo",
+    "path": "s_boost_profilo.apk"
+  },
+  {
+    "disabled": false,
+    "hash": "bd033942c96e9e3769ae1ed26c8f98ea876e710ca52244edd774bb8d693380cd",
+    "name": "s_fizz_msys",
+    "path": "s_fizz_msys.apk"
+  },
+  {
+    "disabled": false,
+    "hash": "2b9c62a045322677787624b109ea1cdc122bd2eae6e986b6cedce415643517cd",
+    "name": "s_heroplayer_rtc",
+    "path": "s_heroplayer_rtc.apk"
+  },
+  {
+    "disabled": true,
+    "hash": "0c80021e6d948a0b94a799e42c81763f20e39c17e0d48255d93f79d492c705ba",
+    "name": "s_inappbrowser_mediastreaming",
+    "path": "s_inappbrowser_mediastreaming.apk"
+  },
+  {
+    "disabled": false,
+    "hash": "db3539fc71a5410547a8ef9628ecc3a1026c68bb5ba3caddb14a9035033328f1",
+    "name": "s_libunwindstack_profilo",
+    "path": "s_libunwindstack_profilo.apk"
+  },
+  {
+    "disabled": false,
+    "hash": "5ec6b2adf956a1b30beab6313340f227157af7df9777537a23211138bdd51f50",
+    "name": "s_mediacompositionplayer_mediastreaming_rtc",
+    "path": "s_mediacompositionplayer_mediastreaming_rtc.apk"
+  },
+  {
+    "disabled": true,
+    "hash": "13478cf24260c993142e97125a3b20b4324e616b2ed33301df13f44fdaa20227",
+    "name": "s_mediastreaming_msys_profilo_rtc",
+    "path": "s_mediastreaming_msys_profilo_rtc.apk"
+  },
+  {
+    "disabled": false,
+    "hash": "0f8c98dad65570b8c8a82e443e9c07dc8b7410f91daf00743bba194cfeb58979",
+    "name": "s_mediastreaming_msys_rtc",
+    "path": "s_mediastreaming_msys_rtc.apk"
+  },
+  {
+    "disabled": false,
+    "hash": "32618327e6cfece049f669f44d5303fc0b763d47eae0c29c2a570ff7a480048f",
+    "name": "s_mediastreaming_msysinfra",
+    "path": "s_mediastreaming_msysinfra.apk"
+  },
+  {
+    "disabled": false,
+    "hash": "a467bed95046c399e1b7923cac9b6e69bdd79e966fe195a0e555610642081bd1",
+    "name": "s_mediastreaming_rtc",
+    "path": "s_mediastreaming_rtc.apk"
+  },
+  {
+    "disabled": false,
+    "hash": "b612372f01c7f2ee760709fdfe2e90752359f363a1a37ced07ed3aed50c7cc97",
+    "name": "s_mnshttp_msys",
+    "path": "s_mnshttp_msys.apk"
+  },
+  {
+    "disabled": false,
+    "hash": "21cece4fcad51a757fde5f6e59d131788ac5377b83e7f690366563ef87c3b99e",
+    "name": "s_msys_rtc",
+    "path": "s_msys_rtc.apk"
+  },
+  {
+    "disabled": true,
+    "hash": "e90bb29396cb5115fa6b21d14375e561428d2aacf7966f2661298e3020f1858b",
+    "name": "s_pytorch_rtc",
+    "path": "s_pytorch_rtc.apk"
+  },
+  {
+    "disabled": false,
+    "hash": "6948cb98169e0f12a2eb89f164ea25f40db2371d495fcb8a32a29e51bf8629d6",
+    "name": "shared_fizz_ms_profilo",
+    "path": "shared_fizz_ms_profilo.apk"
+  },
+  {
+    "disabled": false,
+    "hash": "0564010cc083d76b9c2dc66efbfbba7f70cd6ff74a8372aa901f7a0ec5ef3c7a",
+    "name": "uiqr",
+    "path": "uiqr.apk"
+  }
+]

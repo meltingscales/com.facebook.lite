@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list android:opacity="opaque"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/splash_screen_background" />
+    <item android:bottom="60.0dip">
+        <bitmap android:gravity="center" android:src="@raw/logo_new" />
+    </item>
+    <item android:bottom="89.0dip">
+        <bitmap android:gravity="bottom|center" android:src="@raw/from_meta_logo" />
+    </item>
+</layer-list>

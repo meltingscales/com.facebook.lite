@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="__external__external_share_intent_label">Přidat do Lite</string>
+    <string name="accessibility_link_role">Odkaz</string>
+    <string name="common_google_play_services_unknown_issue">Aplikace %1$s má potíže se službami Google Play. Zkuste to prosím znovu.</string>
+    <string name="external_share_to_groups_intent_label">Vaše skupiny</string>
+    <string name="external_share_to_messaging_intent_label">Zprávy</string>
+    <string name="external_share_to_story_intent_label">Váš příběh</string>
+</resources>

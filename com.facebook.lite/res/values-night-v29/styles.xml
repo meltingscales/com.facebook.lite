@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="splashScreenTheme" parent="@style/darkModeTheme">
+        <item name="android:windowBackground">@drawable/splash_screen_new_night</item>
+        <item name="android:windowSplashScreenBackground">@color/splash_screen_background</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_screen_logo</item>
+        <item name="android:windowSplashScreenAnimationDuration">1</item>
+        <item name="android:windowSplashScreenBrandingImage">@drawable/from_meta_logo</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/splash_screen_background</item>
+        <item name="android:windowSplashScreenBehavior">icon_preferred</item>
+    </style>
+</resources>

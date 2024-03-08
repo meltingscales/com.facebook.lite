@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="from_meta_logo">r/bq.xml</drawable>
+    <drawable name="splash_screen_logo">r/br.xml</drawable>
+    <drawable name="splash_screen_logo_positioned_vector">r/bs.xml</drawable>
+</resources>

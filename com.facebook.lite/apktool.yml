@@ -1,0 +1,56 @@
+version: 2.9.3
+apkFileName: com.facebook.lite.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 15
+  targetSdkVersion: 34
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 503101420
+  versionName: 397.0.0.11.117
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  DebugProbesKt.bin: 8
+  app-update.properties: 0
+  billing.properties: 0
+  core-common.properties: 0
+  core-facebook.properties: 0
+  firebase-annotations.properties: 0
+  firebase-common.properties: 0
+  firebase-components.properties: 0
+  firebase-iid-interop.properties: 8
+  firebase-iid.properties: 8
+  firebase-measurement-connector.properties: 8
+  firebase-messaging.properties: 8
+  integrity.properties: 0
+  play-services-auth-api-phone.properties: 0
+  play-services-auth-base.properties: 0
+  play-services-auth-blockstore.properties: 0
+  play-services-auth.properties: 0
+  play-services-base.properties: 0
+  play-services-basement.properties: 0
+  play-services-fido.properties: 0
+  play-services-instantapps.properties: 8
+  play-services-location.properties: 0
+  play-services-places-placereport.properties: 0
+  play-services-safetynet.properties: 8
+  play-services-stats.properties: 8
+  play-services-tasks.properties: 0
+  review.properties: 0
+  nonJvmMain/default/manifest: 8
+  nonJvmMain/default/linkdata/module: 8
+doNotCompress:
+- resources.arsc
+- assets/mc_query_hash.bin
+- assets/lib/libs.spk.xz
+- assets/secondary-program-dex-jars/metadata.txt
+- assets/secondary-program-dex-jars/store-0.dex.spo
+- png

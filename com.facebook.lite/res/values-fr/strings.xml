@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="__external__external_share_intent_label">Ajouter à Lite</string>
+    <string name="accessibility_link_role">Lien</string>
+    <string name="common_google_play_services_unknown_issue">"L'application %1$s rencontre des problèmes avec les services Google Play. Veuillez réessayer."</string>
+    <string name="external_share_to_groups_intent_label">Vos groupes</string>
+    <string name="external_share_to_messaging_intent_label">Messages</string>
+    <string name="external_share_to_story_intent_label">Votre story</string>
+</resources>

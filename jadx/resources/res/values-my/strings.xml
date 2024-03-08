@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="__external__external_share_intent_label">Facebook Lite သို့ထည့်ပါ</string>
+    <string name="accessibility_link_role">လင့်ခ်</string>
+    <string name="common_google_play_services_unknown_issue">%1$s သည် Google Play ဝန်ဆောင်မှုများနှင့် ပြဿနာအနည်းငယ် ရှိနေပါသည်။ ထပ်လုပ်ကြည့်ပါ။</string>
+    <string name="external_share_to_groups_intent_label">သင့်အဖွဲ့များ</string>
+    <string name="external_share_to_messaging_intent_label">မက်ဆေ့ပို့ခြင်း</string>
+    <string name="external_share_to_story_intent_label">သင့်စတိုရီ</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="__external__external_share_intent_label">新增到 Lite</string>
+    <string name="accessibility_link_role">連結</string>
+    <string name="common_google_play_services_unknown_issue">「%1$s」存取 Google Play 服務時發生問題。請稍後再試一次。</string>
+    <string name="external_share_to_groups_intent_label">你的群組</string>
+    <string name="external_share_to_messaging_intent_label">傳送訊息</string>
+    <string name="external_share_to_story_intent_label">限時動態</string>
+</resources>

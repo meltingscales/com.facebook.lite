@@ -1,0 +1,87 @@
+{
+  "layout": {
+    "bloks_payload": {
+      "data": [],
+      "error_attribution": {
+        "logging_id": "{\"callsite\":\"{\\\"product\\\":\\\"bloks_entrypoints_infra\\\",\\\"feature\\\":\\\"screen_query_root_template\\\",\\\"oncall\\\":\\\"bloks_www\\\"}\",\"push_phase\":\"C3\",\"version\":1,\"request_id\":\"A988IdRlzdgwGFl6c_vLRR5\"}",
+        "source_map_id": "93ead8:16"
+      },
+      "tree": {
+        "\u3408": {
+          " ": [
+            {
+              "\u3408": {
+                " ": [
+                  {
+                    "\u3408": {
+                      ",": "center",
+                      " ": [
+                        {
+                          "\u3562": {
+                            "\u0084": {
+                              "\u3438": {
+                                "D": "32dp",
+                                "*": "32dp",
+                                "#": "center"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "!": "bkscreen_roottemplate_loadingflexbox:0",
+                      "\u0084": {
+                        "\u3438": {
+                          "D": "100%",
+                          "*": "100%"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "!": "93ead8:3"
+              }
+            }
+          ],
+          "!": "93ead8:4",
+          "\u0085": [
+            {
+              "\u3fb6": {
+                "#": " (bk.action.core.Match, (bk.action.core.GetArg, 2), (bk.action.array.Make, (bk.action.core.Pattern, \"failed\", (bk.action.core.FuncConst, (bk.action.core.Match, (bk.action.bloks.GetParameter, \"__infra__ttrc_instance_id\"), (bk.action.array.Make, (bk.action.core.Pattern, null, (bk.action.core.FuncConst, 1))), (bk.action.core.Default, (bk.action.core.FuncConst, (bk.action.ttrc.InteractionFailed, (bk.action.bloks.GetParameter, \"__infra__ttrc_marker_id\"), (bk.action.bloks.GetParameter, \"__infra__ttrc_instance_id\"), \"\", null))))))), (bk.action.core.Default, (bk.action.core.FuncConst, 1)))",
+                "\u0087": " (bk.action.array.Make, \")\", (bk.action.map.Get, (bk.action.core.Coalesce, (bk.action.bloks.GetVariable2, \"query_info_54990105200000\"), (bk.action.mins.CallRuntime, 6)), \"resolution_type\"))"
+              }
+            },
+            {
+              "\u365a": {
+                ")": " (bk.action.bloks.FetchAsyncComponents, (bk.action.bloks.GetParameter, \"__infra__app_id\"), (bk.action.map.Merge, (bk.action.mins.CallRuntime, 6, \"__infra__container_config_id\", (bk.action.bloks.GetParameter, \"__infra__container_config_id\")), (bk.action.bloks.GetParameter, \"__infra__preloaded_params\")), (bk.action.bloks.GetParameter, \"__infra__cache_ttl\"), (bk.action.bloks.OneTimeBind, (bk.action.tree.Make, 16376, 36, \"fetch\", 41, false, 135, (bk.action.core.FuncConst, (bk.action.array.Make, \"(\", (bk.action.bloks.GetParameter, \"__infra__enable_disk_cache\"), \"+\", (bk.action.array.Make, \"__infra__container_config_id\"))))))"
+              }
+            },
+            {
+              "\u365a": {
+                ")": " (bk.action.core.TakeLast, (bk.action.core.Match, (bk.action.bloks.GetParameter, \"__infra__ttrc_instance_id\"), (bk.action.array.Make, (bk.action.core.Pattern, null, (bk.action.core.FuncConst, 1))), (bk.action.core.Default, (bk.action.core.FuncConst, (bk.action.ttrc.MarkerStart, (bk.action.bloks.GetParameter, \"__infra__ttrc_marker_id\"), (bk.action.bloks.GetParameter, \"__infra__ttrc_instance_id\"), (bk.action.bloks.GetParameter, \"__infra__ttrc_timestamp\"), null)))), (bk.action.core.Match, (bk.action.bloks.GetParameter, \"__infra__ttrc_instance_id\"), (bk.action.array.Make, (bk.action.core.Pattern, null, (bk.action.core.FuncConst, 1))), (bk.action.core.Default, (bk.action.core.FuncConst, (bk.action.ttrc.AddAnnotation, (bk.action.bloks.GetParameter, \"__infra__ttrc_marker_id\"), (bk.action.bloks.GetParameter, \"__infra__ttrc_instance_id\"), (bk.action.mins.CallRuntime, 6, \"app_id\", (bk.action.bloks.GetParameter, \"__infra__app_id\")))))), (bk.action.core.Match, (bk.action.bloks.GetParameter, \"__infra__ttrc_instance_id\"), (bk.action.array.Make, (bk.action.core.Pattern, null, (bk.action.core.FuncConst, 1))), (bk.action.core.Default, (bk.action.core.FuncConst, (bk.action.ttrc.AddQuery, (bk.action.bloks.GetParameter, \"__infra__ttrc_marker_id\"), (bk.action.bloks.GetParameter, \"__infra__ttrc_instance_id\"), (bk.action.bloks.GetParameter, \"__infra__app_id\"), (bk.action.bloks.GetParameter, \"__infra__cache_ttl\"))))))"
+              }
+            },
+            {
+              "\u34e2": {
+                "&": "93ead8:13",
+                "$": " (bk.action.core.Match, (bk.action.bloks.GetParameter, \"__infra__ttrc_instance_id\"), (bk.action.array.Make, (bk.action.core.Pattern, null, (bk.action.core.FuncConst, 1))), (bk.action.core.Default, (bk.action.core.FuncConst, (bk.action.ttrc.SurfaceLeft, (bk.action.bloks.GetParameter, \"__infra__ttrc_marker_id\"), (bk.action.bloks.GetParameter, \"__infra__ttrc_instance_id\"), null))))"
+              }
+            }
+          ]
+        }
+      },
+      "component_queries": [
+        {
+          "id": "54990105200000",
+          "targets": {
+            "genScreenContent": "93ead8:3"
+          },
+          "app_id_expr": " (bk.action.bloks.GetParameter, \"__infra__app_id\")",
+          "cache_ttl_expr": " (bk.action.bloks.GetParameter, \"__infra__cache_ttl\")",
+          "params": " (bk.action.mins.CallRuntime, 6, \"__infra__container_config_id\", (bk.action.bloks.GetParameter, \"__infra__container_config_id\"))",
+          "client_params": " (bk.action.mins.CallRuntime, 6, \"__infra_component_did_render\", (bk.action.callback.MakeWithScopeOnly, (bk.action.core.FuncConst, (bk.action.core.TakeLast, (bk.action.bloks.MarkerAnnotateAsyncComponentResponse, (bk.action.bloks.GetParameter, \"__infra__ttrc_marker_id\"), (bk.action.bloks.GetParameter, \"__infra__ttrc_instance_id\"), (bk.action.bloks.GetParameter, \"__infra__app_id\"), (bk.action.map.Get, (bk.action.core.Coalesce, (bk.action.bloks.GetVariable2, \"query_info_54990105200000\"), (bk.action.mins.CallRuntime, 6)), \"response_summary\")), (bk.action.core.Apply, (bk.action.core.FuncConst, (bk.action.core.TakeLast, (bk.action.core.SetArg, 0, (bk.action.core.Coalesce, (bk.action.array.Get, (bk.action.core.Coalesce, (bk.action.bloks.GetVariable2, \"query_info_54990105200000\"), (bk.action.mins.CallRuntime, 6)), \"resolution_type\"), (bk.action.mins.Raise, \"asNonnull got null\"))), (bk.action.core.If, (bk.action.f32.Eq, (bk.action.core.GetArg, 0), \"resolved_sync\"), (bk.action.core.Match, (bk.action.bloks.GetParameter, \"__infra__ttrc_instance_id\"), (bk.action.array.Make, (bk.action.core.Pattern, null, (bk.action.core.FuncConst, 1))), (bk.action.core.Default, (bk.action.core.FuncConst, (bk.action.ttrc.CachedContentDisplayed, (bk.action.bloks.GetParameter, \"__infra__ttrc_marker_id\"), (bk.action.bloks.GetParameter, \"__infra__ttrc_instance_id\"), (bk.action.bloks.GetParameter, \"__infra__app_id\"), (bk.action.mins.GetByValOr, (bk.action.core.Coalesce, (bk.action.bloks.GetVariable2, \"query_info_54990105200000\"), (bk.action.mins.CallRuntime, 6)), \"cache_age\", (bk.action.i64.Const, 0)), (bk.action.tree.Make, 16524, 35, true))))), (bk.action.core.Match, (bk.action.bloks.GetParameter, \"__infra__ttrc_instance_id\"), (bk.action.array.Make, (bk.action.core.Pattern, null, (bk.action.core.FuncConst, 1))), (bk.action.core.Default, (bk.action.core.FuncConst, (bk.action.ttrc.NetworkContentDisplayed, (bk.action.bloks.GetParameter, \"__infra__ttrc_marker_id\"), (bk.action.bloks.GetParameter, \"__infra__ttrc_instance_id\"), (bk.action.bloks.GetParameter, \"__infra__app_id\")))))))))))))",
+          "is_scoped": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="__external__external_share_intent_label">Adicionar ao Lite</string>
+    <string name="accessibility_link_role">Link</string>
+    <string name="external_share_to_groups_intent_label">Seus grupos</string>
+    <string name="external_share_to_messaging_intent_label">Mensagens</string>
+    <string name="external_share_to_story_intent_label">Seu story</string>
+</resources>

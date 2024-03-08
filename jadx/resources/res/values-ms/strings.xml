@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="__external__external_share_intent_label">Tambah pada Lite</string>
+    <string name="accessibility_link_role">Pautan</string>
+    <string name="common_google_play_services_unknown_issue">%1$s menghadapi masalah berhubung perkhidmatan Google Play. Sila cuba lagi.</string>
+    <string name="external_share_to_groups_intent_label">Kumpulan Anda</string>
+    <string name="external_share_to_messaging_intent_label">Pemesejan</string>
+    <string name="external_share_to_story_intent_label">Cerita Anda</string>
+</resources>

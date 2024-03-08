@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="503101420" android:versionName="397.0.0.11.117" android:compileSdkVersion="34" android:compileSdkVersionCodename="14" package="com.facebook.lite" platformBuildVersionCode="34" platformBuildVersionName="14">
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="34"/>
+    <supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+    <uses-feature android:name="android.hardware.microphone" android:required="false"/>
+    <uses-feature android:name="android.hardware.location" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.network" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+    <uses-feature android:name="android.hardware.wifi" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <permission android:name="com.facebook.receiver.permission.ACCESS" android:protectionLevel="signature"/>
+    <permission android:name="com.facebook.permission.prod.FB_APP_COMMUNICATION" android:protectionLevel="signature"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.BATTERY_STATS"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission-sdk-23 android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission-sdk-23 android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission-sdk-23 android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission-sdk-23 android:name="android.permission.READ_MEDIA_VIDEO"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED"/>
+    <uses-permission-sdk-23 android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission-sdk-23 android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.facebook.receiver.permission.ACCESS"/>
+    <uses-permission android:name="com.facebook.katana.provider.ACCESS"/>
+    <uses-permission android:name="com.facebook.orca.provider.ACCESS"/>
+    <uses-permission android:name="com.facebook.mlite.provider.ACCESS"/>
+    <uses-permission android:name="com.facebook.wakizashi.provider.ACCESS"/>
+    <uses-permission android:name="com.facebook.permission.prod.FB_APP_COMMUNICATION"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ"/>
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT"/>
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE"/>
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT"/>
+    <uses-permission android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION"/>
+    <uses-permission android:name="com.facebook.services.identity.FEO2"/>
+    <uses-permission-sdk-23 android:name="android.permission.ANSWER_PHONE_CALLS"/>
+    <uses-permission-sdk-23 android:name="android.permission.READ_CALL_LOG"/>
+    <uses-feature android:name="android.hardware.bluetooth" android:required="false"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE"/>
+    <queries>
+        <package android:name="com.facebook.appmanager"/>
+        <package android:name="com.facebook.system"/>
+        <package android:name="com.facebook.services"/>
+        <package android:name="com.LogiaGroup.LogiaDeck"/>
+    </queries>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <permission android:name="com.facebook.lite.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.facebook.lite.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <queries>
+        <intent>
+            <action android:name="com.android.vending.billing.InAppBillingService.BIND"/>
+        </intent>
+    </queries>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <application android:theme="@style/whiteBackgroundTheme" android:label="@string/app_short_name" android:icon="@mipmap/ic_launcher" android:name="com.facebook.lite.ClientApplicationSplittedShell" android:manageSpaceActivity="com.facebook.lite.storagemanager.ManageStorageActivity" android:debuggable="false" android:allowBackup="false" android:vmSafeMode="@bool/disableJit" android:hardwareAccelerated="true" android:largeHeap="true" android:supportsRtl="true" android:networkSecurityConfig="@xml/fb_network_security_config" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:requestLegacyExternalStorage="true">
+        <meta-data android:name="com.google.android.ALLOW_PHISHING_DETECTION" android:value="false"/>
+        <meta-data android:name="com.facebook.build_rule" android:value="android_fblite_dextr_xzdex_armv7_release_fbsign"/>
+        <meta-data android:name="com.facebook.package_type" android:value="release"/>
+        <meta-data android:name="com.facebook.build_time" android:value="1709397233000L"/>
+        <meta-data android:name="com.facebook.versioncontrol.branch" android:value="master"/>
+        <meta-data android:name="com.facebook.versioncontrol.revision" android:value="MASTER"/>
+        <meta-data android:name="com.facebook.build_id" android:value="572287873"/>
+        <meta-data android:name="asset_statements" android:resource="@string/lite_asset_statements"/>
+        <activity android:theme="@style/A_splashScreenTheme" android:name="com.facebook.lite.MainActivity" android:exported="true" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="screenSize|orientation|keyboardHidden|keyboard|locale" android:windowSoftInputMode="adjustResize">
+            <meta-data android:name="enable-stage" android:value="enable-cold-pretos"/>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.facebook.lite.intent.action.SEND_AS_MESSAGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+            <intent-filter>
+                <data android:scheme="fblite"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <service android:name="com.facebook.lite.webviewrtc.RTCService" android:exported="false"/>
+        <service android:name="com.facebook.lite.download.DownloadService" android:exported="false"/>
+        <receiver android:name="com.facebook.lite.pretos.LiteAppComponentReceiver" android:exported="true" android:process=":pretosproc">
+            <meta-data android:name="enable-stage" android:value="enable-cold-pretos"/>
+            <intent-filter android:priority="999">
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.facebook.lite.rtc.IncomingCallReceiver" android:enabled="false" android:exported="true">
+            <intent-filter>
+                <action android:name="com.facebook.intent.action.prod.RTC_INCOMING_CALL"/>
+                <action android:name="com.facebook.intent.action.prod.RTC_INCOMING_CALL_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.facebook.lite.campaign.CampaignReceiver" android:exported="true">
+            <meta-data android:name="enable-stage" android:value="enable-cold-pretos"/>
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.facebook.lite.appManager.AppManagerReceiver" android:exported="true">
+            <meta-data android:name="enable-stage" android:value="enable-cold-pretos"/>
+            <intent-filter>
+                <action android:name="com.facebook.appmanager.POST_INSTALL_SSO"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.facebook.lite.sharing.NativeShareSheetReceiver" android:enabled="false"/>
+        <receiver android:name="com.facebook.lite.deviceid.FbLitePhoneIdRequestReceiver" android:enabled="false" android:exported="true">
+            <intent-filter>
+                <action android:name="com.facebook.GET_PHONE_ID"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.facebook.appupdate.DownloadCompleteReceiver" android:enabled="false" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>
+            </intent-filter>
+        </receiver>
+        <provider android:name="com.facebook.lite.deviceid.FbLitePhoneIdProvider" android:enabled="false" android:exported="true" android:authorities="com.facebook.lite.provider.phoneid"/>
+        <provider android:name="androidx.core.content.FileProvider" android:exported="false" android:authorities="com.facebook.lite.apkfileprovider" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/apkfileproviderpaths"/>
+        </provider>
+        <provider android:name="com.facebook.secure.fileprovider.SecureFileProvider" android:exported="false" android:authorities="com.facebook.lite.securefileprovider" android:grantUriPermissions="true">
+            <meta-data android:name="com.facebook.secure.fileprovider.SECURE_FILE_PROVIDER_PATHS" android:resource="@xml/securefileprovider"/>
+        </provider>
+        <provider android:name="com.facebook.lite.photo.PhotoFileProvider" android:exported="false" android:authorities="com.facebook.lite.photofileprovider" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/photofileproviderpaths"/>
+        </provider>
+        <receiver android:name="com.facebook.lite.deviceid.FbLitePhoneIdUpdater$LocalBroadcastReceiver" android:enabled="false"/>
+        <service android:name="com.facebook.lite.FbnsIntentService" android:exported="false"/>
+        <service android:name="com.facebook.lite.FbnsForegroundService" android:exported="false" android:foregroundServiceType=""/>
+        <service android:name="com.facebook.lite.notification.messaging.ArmadilloNotificationForegroundService" android:exported="false" android:foregroundServiceType=""/>
+        <service android:name="com.facebook.analyticslite.memory.MemoryDumpUploadService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <receiver android:name="com.facebook.lite.FbnsIntentService$CallbackReceiver" android:enabled="false" android:exported="true">
+            <intent-filter>
+                <action android:name="com.facebook.rti.fbns.intent.RECEIVE"/>
+                <category android:name="com.facebook.lite"/>
+            </intent-filter>
+        </receiver>
+        <service android:label="NotificationService" android:name="com.facebook.rti.push.service.FbnsService" android:exported="false" android:process=":fbns"/>
+        <receiver android:name="com.facebook.rti.push.service.MqttSystemBroadcastReceiver" android:enabled="false" android:exported="true" android:process=":fbns">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.facebook.lite.AppController$NetworkStateBroadcastReceiver" android:enabled="false" android:exported="false">
+            <meta-data android:name="default-state" android:value="false"/>
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.facebook.lite.notification.PushNotificationLogBroadcastReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.facebook.lite.NOTIFICATION_DISMISS"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.facebook.lite.notifications.messaging.impl.DeleteMessageNotificationBroadcastReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.facebook.lite.NOTIFICATION_DISMISS"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.facebook.lite.shortcuts.ShortcutCreationReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.facebook.lite.SHORTCUT_CREATED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.facebook.lite.notification.LocalNotificationLogBroadcastReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.facebook.lite.LOCAL_NOTIFICATION_DISMISS"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.facebook.lite.notification.widget.receiver.NotificationsWidgetProvider" android:enabled="true" android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/small_notifications_app_widget_info"/>
+        </receiver>
+        <receiver android:name="com.facebook.lite.notification.widget.receiver.NotificationsWidgetForceUpdateReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.facebook.lite.notification.widget.ACTION_FORCE_UPDATE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.facebook.lite.notification.widget.receiver.NotificationsWidgetAppUpgradeReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.facebook.lite.notification.NotificationsRemovalTimerReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.facebook.lite.NOTIFICATIONS_REMOVAL_TIMER_RECEIVER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.facebook.lite.notification.NotificationsSnoozeTimerReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.facebook.lite.NOTIFICATIONS_SNOOZE_TIMER_RECEIVER_FILTER_NAME"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.facebook.lite.notification.NotificationSchedulingReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.facebook.lite.NOTIFICATION_SCHEDULING_RECEIVER_FILTER_NAME"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.facebook.lite.browser.ChromeCustomTabsReceiver" android:enabled="true" android:exported="false"/>
+        <service android:name="com.facebook.lite.notification.LiteFirebaseMessagingService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@drawable/sysnotif_default"/>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_color" android:resource="@color/fb_blue_60"/>
+        <provider android:name="com.facebook.lite.photo.MediaContentProvider" android:enabled="false" android:exported="true" android:authorities="com.facebook.lite.media"/>
+        <provider android:name="com.facebook.lite.diode.UserValuesProvider" android:enabled="false" android:exported="true" android:authorities="com.facebook.lite.provider.UserValuesProvider;com.facebook.lite.provider.FirstPartyUserValuesProvider"/>
+        <provider android:name="com.facebook.lite.mobileidservices.FeO2ContentProvider" android:enabled="true" android:exported="false" android:authorities="com.facebook.lite.identity.feo2.api"/>
+        <service android:name="com.facebook.lite.intent.WakefulIntentService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false">
+            <meta-data android:name="coldpretos.whitelisted" android:value="true"/>
+        </service>
+        <receiver android:name="com.facebook.lite.intent.IntentScheduler" android:exported="false">
+            <intent-filter>
+                <action android:name="ANDROID.INTENT.ACTION.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.facebook.lite.intent.WakefulIntentForwarder" android:exported="false">
+            <meta-data android:name="coldpretos.whitelisted" android:value="true"/>
+        </receiver>
+        <service android:name="com.facebook.lite.service.SnoozeNotificationService" android:exported="false"/>
+        <service android:name="com.facebook.lite.service.NotificationLoggingService" android:exported="false"/>
+        <service android:name="com.facebook.lite.service.NotificationQuickActionService" android:exported="false"/>
+        <service android:label="InitService" android:name="com.facebook.lite.service.AppInitService" android:exported="false"/>
+        <service android:label="TaskLifeDetectingService" android:name="com.facebook.lite.service.AppRestartService" android:exported="false" android:stopWithTask="false"/>
+        <service android:name="com.facebook.lite.messagingapps.FirstPartyMessagingAppsDetectionService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <service android:name="com.facebook.lite.bugreporter.screencast.ScreencastService" android:permission="FOREGROUND_SERVICE_MEDIA_PROJECTION" android:exported="false" android:foregroundServiceType="mediaProjection"/>
+        <receiver android:name="com.facebook.lite.datausage.DataUsageBroadCastReceiver" android:enabled="false" android:exported="false">
+            <meta-data android:name="default-state" android:value="false"/>
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_SHUTDOWN"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.facebook.lite.service.MediaUploadService" android:exported="false" android:foregroundServiceType="dataSync"/>
+        <receiver android:name="com.facebook.lite.registration.EmptyAppNotifServiceReceiver" android:enabled="true" android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.facebook.browser.lite.BrowserLiteIntentService" android:exported="false"/>
+        <service android:name="com.facebook.lite.browser.BrowserLiteCallbackService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.facebook.browser.lite.BrowserLiteCallback"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.facebook.lite.waotp.WAOtpCodeReceiver" android:enabled="false" android:exported="true">
+            <intent-filter>
+                <action android:name="com.whatsapp.otp.OTP_RETRIEVED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/blackBackgroundTheme" android:name="com.facebook.lite.rtc.RTCActivity" android:exported="false" android:taskAffinity="com.facebook.lite.WEBVIEWRTC" android:excludeFromRecents="true" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="screenSize|orientation|keyboardHidden|keyboard|locale" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/blackBackgroundTheme" android:name="com.facebook.lite.webviewrtc.RTCIncomingCallActivity" android:exported="false" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="screenSize|orientation|keyboardHidden|keyboard|locale" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.facebook.lite.nativeRtc.NativeRtcCallActivity" android:exported="false" android:launchMode="singleTask" android:configChanges="screenSize|orientation|keyboardHidden|keyboard" android:autoRemoveFromRecents="true"/>
+        <activity android:name="com.facebook.lite.media.AlbumGalleryActivity" android:exported="false" android:screenOrientation="portrait" android:configChanges="screenSize|orientation|keyboardHidden|keyboard|locale"/>
+        <activity android:name="com.facebook.lite.platform.LoginGDPDialogActivityV2" android:enabled="false" android:exported="true" android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"/>
+        <activity android:theme="@style/TransparentThemeLite" android:name="com.facebook.lite.storagemanager.ManageStorageActivity" android:exported="false"/>
+        <activity android:theme="@style/TransparentThemeLite" android:name="com.facebook.lite.bugreporter.screencast.ScreencastActivity" android:exported="false"/>
+        <activity android:theme="@android:style/Theme.Translucent.NoTitleBar" android:name="com.facebook.lite.inappbrowser.common.BrowserLiteProxyActivity" android:exported="false" android:process=":browser" android:noHistory="true"/>
+        <activity android:theme="@style/whiteBackgroundTheme" android:name="com.facebook.browser.lite.BrowserLiteActivity" android:exported="false" android:process=":browser" android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/whiteBackgroundTheme" android:name="com.facebook.browser.lite.BrowserLiteInMainProcessActivity" android:exported="false" android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/TransparentThemeLite" android:name="com.facebook.lite.deeplinking.UIQRE2EActivity" android:exported="false"/>
+        <activity android:name="com.facebook.lite.waotp.WAOtpReceiveCodeActivity" android:enabled="false" android:exported="true" android:launchMode="standard">
+            <intent-filter>
+                <action android:name="com.whatsapp.otp.OTP_RETRIEVED"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/TransparentThemeLite" android:name="com.facebook.lite.openzeroratedcheckoutactivity.OpenZeroRatedCheckoutActivity" android:exported="false"/>
+        <activity-alias android:name="com.facebook.lite.deeplinking.activities.PermalinkPossiblePatternsActivityAlias" android:enabled="false" android:exported="true" android:targetActivity="com.facebook.lite.MainActivity">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="www.facebook.com"/>
+                <data android:host="m.facebook.com"/>
+                <data android:pathPrefix="/share"/>
+                <data android:pathPrefix="/events"/>
+                <data android:pathPrefix="/groups"/>
+                <data android:pathPrefix="/watch"/>
+                <data android:pathPrefix="/marketplace"/>
+                <data android:pathPrefix="/coronavirus_info"/>
+                <data android:pathPrefix="/mobile_center"/>
+                <data android:pathPrefix="/pages"/>
+                <data android:pathPrefix="/uiqr/.*"/>
+                <data android:pathPattern="/.*/videos/.*"/>
+                <data android:pathPattern="/reel/.*"/>
+                <data android:pathPattern="/places/..*/..*"/>
+                <data android:pathPattern="/.*/posts/.*"/>
+                <data android:pathPattern="/.*/photos/.*"/>
+                <data android:pathPattern="/.*/photos"/>
+                <data android:pathPattern="/.*/media_set"/>
+                <data android:pathPattern="/.*/about"/>
+                <data android:pathPattern="/.*/photos_of"/>
+                <data android:pathPattern="/.*/photos_albums"/>
+                <data android:pathPattern="/.*/friends"/>
+                <data android:pathPattern="/inter_app/redirect/.*"/>
+                <data android:pathPattern="/privacy_access_hub/.*"/>
+                <data android:pathPattern="/contact_upload_settings/.*"/>
+                <data android:pathPrefix="/fbrdr/2048/"/>
+                <data android:pathPrefix="/fbrdr/274/"/>
+                <data android:pathPrefix="/profile.php"/>
+                <data android:path="/permalink.php"/>
+                <data android:path="/story.php"/>
+                <data android:path="/home.php"/>
+                <data android:path="/photo.php"/>
+                <data android:path="/video.php"/>
+                <data android:path="/n/"/>
+                <data android:path="/nd/"/>
+                <data android:pathPattern="/pg/.*/home"/>
+                <data android:pathPattern="/pg/.*/home/"/>
+                <data android:pathPattern="/pg/.*/about"/>
+                <data android:pathPattern="/pg/.*/about/"/>
+                <data android:pathPattern="/pg/.*/photos"/>
+                <data android:pathPattern="/pg/.*/photos/"/>
+                <data android:pathPattern="/pages/whatsapp"/>
+                <data android:pathPattern="/pages"/>
+                <data android:pathPattern="/fblite_transfer_your_information/.*"/>
+                <data android:pathPattern="/dogfooding_assistant"/>
+                <data android:pathPattern="/acredirect/.*"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:name="com.facebook.lite.deeplinking.activities.PermalinkFBLinksAlias" android:enabled="false" android:exported="true" android:targetActivity="com.facebook.lite.MainActivity">
+            <meta-data android:name="default-state" android:value="false"/>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="fb"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:name="com.facebook.lite.deeplinking.UIQRE2EActivity" android:enabled="false" android:exported="true" android:targetActivity="com.facebook.lite.deeplinking.UIQRE2EActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="uiqr"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:name="com.facebook.lite.deeplinking.activities.PermalinkLiteActivityAlias" android:enabled="false" android:exported="true" android:targetActivity="com.facebook.lite.MainActivity">
+            <meta-data android:name="default-state" android:value="false"/>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="www.facebook.com"/>
+                <data android:host="m.facebook.com"/>
+                <data android:host="fb.com"/>
+                <data android:pathPrefix="/lite"/>
+                <data android:pathPrefix="/fblite/launch"/>
+                <data android:pathPrefix="/ema/install"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:name="com.facebook.lite.stories.activities.ShareToFbStoriesAlias" android:enabled="true" android:exported="true" android:targetActivity="com.facebook.lite.MainActivity">
+            <meta-data android:name="enable-stage" android:value="enable-cold-pretos"/>
+            <intent-filter android:label="@string/external_share_to_story_intent_label">
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:name="com.facebook.lite.stories.activities.ShareToFbMultiStoriesAlias" android:enabled="false" android:exported="true" android:targetActivity="com.facebook.lite.MainActivity">
+            <meta-data android:name="default-state" android:value="false"/>
+            <meta-data android:name="enable-stage" android:value="enable-cold-pretos"/>
+            <intent-filter android:label="@string/external_share_to_story_intent_label">
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:name="com.facebook.lite.composer.activities.ShareIntentMultiPhotoAlphabeticalAlias" android:enabled="false" android:exported="true" android:targetActivity="com.facebook.lite.MainActivity">
+            <meta-data android:name="default-state" android:value="false"/>
+            <meta-data android:name="enable-stage" android:value="enable-cold-pretos"/>
+            <intent-filter android:label="@string/__external__external_share_intent_label">
+                <action android:name="android.intent.action.SEND"/>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:name="com.facebook.lite.composer.activities.ShareIntentLinkGroupsAlias" android:enabled="false" android:exported="true" android:targetActivity="com.facebook.lite.MainActivity">
+            <meta-data android:name="default-state" android:value="false"/>
+            <meta-data android:name="enable-stage" android:value="enable-cold-pretos"/>
+            <intent-filter android:label="@string/external_share_to_groups_intent_label">
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:name="com.facebook.lite.composer.activities.ShareIntentMultiPhotoGroupsAlias" android:enabled="false" android:exported="true" android:targetActivity="com.facebook.lite.MainActivity">
+            <meta-data android:name="default-state" android:value="false"/>
+            <meta-data android:name="enable-stage" android:value="enable-cold-pretos"/>
+            <intent-filter android:label="@string/external_share_to_groups_intent_label">
+                <action android:name="android.intent.action.SEND"/>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:name="com.facebook.lite.composer.activities.ShareIntentVideoGroupsAlias" android:enabled="false" android:exported="true" android:targetActivity="com.facebook.lite.MainActivity">
+            <meta-data android:name="default-state" android:value="false"/>
+            <meta-data android:name="enable-stage" android:value="enable-cold-pretos"/>
+            <intent-filter android:label="@string/external_share_to_groups_intent_label">
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:name="com.facebook.lite.composer.activities.ShareIntentVideoAlphabeticalAlias" android:enabled="false" android:exported="true" android:targetActivity="com.facebook.lite.MainActivity">
+            <meta-data android:name="default-state" android:value="false"/>
+            <meta-data android:name="enable-stage" android:value="enable-cold-pretos"/>
+            <intent-filter android:label="@string/__external__external_share_intent_label">
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:name="com.facebook.lite.composer.activities.ShareIntentMultiVideoAlphabeticalAlias" android:enabled="false" android:exported="true" android:targetActivity="com.facebook.lite.MainActivity">
+            <meta-data android:name="default-state" android:value="false"/>
+            <meta-data android:name="enable-stage" android:value="enable-cold-pretos"/>
+            <intent-filter android:label="@string/__external__external_share_intent_label">
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:name="com.facebook.lite.deeplinking.activities.PermalinkWatchShortAlias" android:enabled="false" android:exported="true" android:targetActivity="com.facebook.lite.MainActivity">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="fb.watch"/>
+                <data android:host="fbwat.ch"/>
+                <data android:pathPattern="/.*"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:name="com.facebook.lite.deeplinking.activities.PermalinkFbliteMessagingFbMePrefixAlias" android:enabled="false" android:exported="true" android:targetActivity="com.facebook.lite.MainActivity">
+            <meta-data android:name="default-state" android:value="false"/>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="fb.me"/>
+                <data android:pathPattern="/.*"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:name="com.facebook.lite.deeplinking.activities.CommunityChatsMDotMePrefixAlias" android:enabled="false" android:exported="true" android:targetActivity="com.facebook.lite.MainActivity">
+            <meta-data android:name="default-state" android:value="false"/>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="m.me"/>
+                <data android:pathPattern="/.*"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:name="com.facebook.lite.deeplinking.activities.PermalinkVanityPrefixAt" android:enabled="false" android:exported="true" android:targetActivity="com.facebook.lite.MainActivity">
+            <meta-data android:name="default-state" android:value="false"/>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="www.facebook.com"/>
+                <data android:host="m.facebook.com"/>
+                <data android:pathPattern="/@.*"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:name="com.facebook.lite.deeplinking.activities.PermalinkVanityPrefixP" android:enabled="false" android:exported="true" android:targetActivity="com.facebook.lite.MainActivity">
+            <meta-data android:name="default-state" android:value="false"/>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="www.facebook.com"/>
+                <data android:host="m.facebook.com"/>
+                <data android:pathPattern="/p/.*"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:name="com.facebook.lite.deeplinking.activities.PermalinkVanityPrefixTilde" android:enabled="false" android:exported="true" android:targetActivity="com.facebook.lite.MainActivity">
+            <meta-data android:name="default-state" android:value="false"/>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="www.facebook.com"/>
+                <data android:host="m.facebook.com"/>
+                <data android:pathPattern="/~.*"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:name="com.facebook.lite.deeplinking.activities.PermalinkHomeAlias" android:enabled="false" android:exported="true" android:targetActivity="com.facebook.lite.MainActivity">
+            <meta-data android:name="default-state" android:value="false"/>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="www.facebook.com"/>
+                <data android:host="m.facebook.com"/>
+                <data android:path=""/>
+                <data android:path="/"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:name="com.facebook.lite.deeplinking.activities.PermalinkMessagingAlias" android:enabled="false" android:exported="true" android:targetActivity="com.facebook.lite.MainActivity">
+            <meta-data android:name="default-state" android:value="false"/>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="www.facebook.com"/>
+                <data android:host="m.facebook.com"/>
+                <data android:pathPattern="/messages"/>
+                <data android:pathPattern="/messages/read"/>
+                <data android:pathPattern="/messages/t/.*"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:name="com.facebook.lite.deeplinking.activities.PermalinkSettingsAlias" android:enabled="false" android:exported="true" android:targetActivity="com.facebook.lite.MainActivity">
+            <meta-data android:name="default-state" android:value="false"/>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="www.facebook.com"/>
+                <data android:host="m.facebook.com"/>
+                <data android:pathPrefix="/settings"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:name="com.facebook.lite.deeplinking.activities.PermalinkTimelineAlias" android:enabled="false" android:exported="true" android:targetActivity="com.facebook.lite.MainActivity">
+            <meta-data android:name="default-state" android:value="false"/>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="www.facebook.com"/>
+                <data android:host="m.facebook.com"/>
+                <data android:pathPrefix="/timeline"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:name="com.facebook.lite.deeplinking.activities.PermalinkNotificationsAlias" android:enabled="false" android:exported="true" android:targetActivity="com.facebook.lite.MainActivity">
+            <meta-data android:name="default-state" android:value="false"/>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="www.facebook.com"/>
+                <data android:host="m.facebook.com"/>
+                <data android:pathPrefix="/notifications"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:name="com.facebook.lite.deeplinking.activities.PermalinkProfileEditAlias" android:enabled="false" android:exported="true" android:targetActivity="com.facebook.lite.MainActivity">
+            <meta-data android:name="default-state" android:value="false"/>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="www.facebook.com"/>
+                <data android:host="m.facebook.com"/>
+                <data android:pathPrefix="/profile/edit"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:name="com.facebook.lite.deeplinking.activities.PermalinkBuddylistAlias" android:enabled="false" android:exported="true" android:targetActivity="com.facebook.lite.MainActivity">
+            <meta-data android:name="default-state" android:value="false"/>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="www.facebook.com"/>
+                <data android:host="m.facebook.com"/>
+                <data android:path="/buddylist.php"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:name="com.facebook.lite.deeplinking.activities.PermalinkExtraFacebookHostsAlias" android:enabled="false" android:exported="true" android:targetActivity="com.facebook.lite.MainActivity">
+            <meta-data android:name="default-state" android:value="false"/>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="facebook.com"/>
+                <data android:host="fb.com"/>
+                <data android:host="free.facebook.com"/>
+                <data android:host="m.alpha.facebook.com"/>
+                <data android:host="m.beta.facebook.com"/>
+                <data android:host="mbasic.alpha.facebook.com"/>
+                <data android:host="mbasic.beta.facebook.com"/>
+                <data android:host="mbasic.facebook.com"/>
+                <data android:host="mobile.facebook.com"/>
+                <data android:host="mtouch.facebook.com"/>
+                <data android:host="p.facebook.com"/>
+                <data android:host="touch.facebook.com"/>
+                <data android:host="web.facebook.com"/>
+                <data android:host="www.alpha.facebook.com"/>
+                <data android:host="www.beta.facebook.com"/>
+                <data android:host="x.facebook.com"/>
+                <data android:pathPrefix="/events"/>
+                <data android:pathPrefix="/groups"/>
+                <data android:pathPrefix="/watch"/>
+                <data android:pathPrefix="/marketplace"/>
+                <data android:pathPrefix="/coronavirus_info"/>
+                <data android:pathPrefix="/mobile_center"/>
+                <data android:pathPrefix="/pages"/>
+                <data android:pathPrefix="/uiqr/.*"/>
+                <data android:pathPattern="/.*/videos/.*"/>
+                <data android:pathPattern="/reel/.*"/>
+                <data android:pathPattern="/places/..*/..*"/>
+                <data android:pathPattern="/.*/posts/.*"/>
+                <data android:pathPattern="/.*/photos/.*"/>
+                <data android:pathPattern="/.*/photos"/>
+                <data android:pathPattern="/.*/media_set"/>
+                <data android:pathPattern="/.*/about"/>
+                <data android:pathPattern="/.*/photos_of"/>
+                <data android:pathPattern="/.*/photos_albums"/>
+                <data android:pathPattern="/.*/friends"/>
+                <data android:pathPattern="/inter_app/redirect/.*"/>
+                <data android:pathPattern="/privacy_access_hub/.*"/>
+                <data android:pathPattern="/contact_upload_settings/.*"/>
+                <data android:pathPrefix="/fbrdr/2048/"/>
+                <data android:pathPrefix="/fbrdr/274/"/>
+                <data android:pathPrefix="/profile.php"/>
+                <data android:path="/permalink.php"/>
+                <data android:path="/story.php"/>
+                <data android:path="/home.php"/>
+                <data android:path="/photo.php"/>
+                <data android:path="/video.php"/>
+                <data android:path="/n/"/>
+                <data android:path="/nd/"/>
+                <data android:pathPattern="/pg/.*/home"/>
+                <data android:pathPattern="/pg/.*/home/"/>
+                <data android:pathPattern="/pg/.*/about"/>
+                <data android:pathPattern="/pg/.*/about/"/>
+                <data android:pathPattern="/pg/.*/photos"/>
+                <data android:pathPattern="/pg/.*/photos/"/>
+                <data android:pathPattern="/pages/whatsapp"/>
+                <data android:pathPattern="/pages"/>
+                <data android:pathPattern="/fblite_transfer_your_information/.*"/>
+                <data android:pathPattern="/dogfooding_assistant"/>
+                <data android:pathPattern="/acredirect/.*"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:name="com.facebook.lite.composer.activities.ShareTextToMessagingAlias" android:enabled="false" android:exported="true" android:targetActivity="com.facebook.lite.MainActivity">
+            <meta-data android:name="default-state" android:value="false"/>
+            <meta-data android:name="enable-stage" android:value="enable-cold-pretos"/>
+            <intent-filter android:label="@string/external_share_to_messaging_intent_label">
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:name="com.facebook.lite.composer.activities.ShareMediaToMessagingAlias" android:enabled="false" android:exported="true" android:targetActivity="com.facebook.lite.MainActivity">
+            <meta-data android:name="default-state" android:value="false"/>
+            <meta-data android:name="enable-stage" android:value="enable-cold-pretos"/>
+            <intent-filter android:label="@string/external_share_to_messaging_intent_label">
+                <action android:name="android.intent.action.SEND"/>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+                <data android:mimeType="video/*"/>
+                <data android:mimeType="application/*"/>
+            </intent-filter>
+        </activity-alias>
+        <meta-data android:name="com.facebook.services.fbpermission.FEO2" android:value=""/>
+        <meta-data android:name="com.facebook.services.fbpermission.FEO2_IMPLICIT_CALLER" android:value=""/>
+        <meta-data android:name="com.facebook.services.fbpermission.FEO2_READ_DEVICE_COOKIE" android:value=""/>
+        <provider android:name="com.facebook.lite.msys.LiteSecureMessagingKeyContentProvider" android:enabled="false" android:exported="true" android:authorities="com.facebook.lite.ShareKey"/>
+        <meta-data android:name="com.facebook.secure.key.fbpermission.SECURE_KEY" android:value=""/>
+        <service android:name="com.facebook.appcomponentmanager.AppComponentManagerService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false" android:process=":pretosproc">
+            <meta-data android:name="coldpretos.whitelisted" android:value="true"/>
+        </service>
+        <service android:name="com.facebook.lite.rtc.impl.service.RtcService" android:enabled="false" android:foregroundServiceType="microphone|camera|phoneCall"/>
+        <service android:name="com.facebook.oxygen.preloads.sdk.firstparty.managedappcache.IsManagedAppCacheService" android:exported="false"/>
+        <service android:name="com.facebook.oxygen.preloads.sdk.firstparty.managedappcache.IsManagedAppCacheJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <receiver android:name="com.facebook.oxygen.preloads.sdk.firstparty.managedappcache.IsManagedAppFlag" android:enabled="false" android:exported="false">
+            <meta-data android:name="default-state" android:value="false"/>
+            <intent-filter>
+                <action android:name="com.facebook.oxygen.preloads.sdk.firstparty.managedappcache.IsManagedAppFlag"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.facebook.oxygen.preloads.sdk.firstparty.managedappcache.IsManagedAppReceiver" android:permission="com.facebook.appmanager.ACCESS" android:enabled="false" android:exported="true">
+            <intent-filter>
+                <action android:name="com.facebook.oxygen.preloads.sdk.firstparty.managedappcache.IS_MANAGED_APP_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.facebook.oxygen.preloads.sdk.firstparty.settings.TosAcceptedFlag" android:enabled="false" android:exported="false">
+            <meta-data android:name="default-state" android:value="false"/>
+        </receiver>
+        <service android:name="com.facebook.video.heroplayer.service.HeroKeepAliveService" android:exported="false"/>
+        <service android:name="com.facebook.videolite.api.VideoUploadForegroundService" android:exported="false" android:foregroundServiceType="dataSync"/>
+        <service android:name="com.facebook.videolite.api.jobscheduler.UploadJobSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <service android:name="com.facebook.secure.packagefinder.PackageFinderService" android:enabled="false" android:exported="true">
+            <meta-data android:name="default-state" android:value="false"/>
+            <intent-filter>
+                <action android:name="com.facebook.secure.packagefinder.intent.ACTION_QUERY_PACKAGES"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.facebook.lite.nativeRtc.receiver.NotificationActionReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.facebook.lite.rtc.NotificationAction"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.facebook.voltron.download.scheduledinstaller.OxygenScheduledInstallerJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <service android:name="com.google.firebase.messaging.FirebaseMessagingService" android:exported="false">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:theme="@android:style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:exported="false" android:excludeFromRecents="true"/>
+        <service android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" android:enabled="false" android:exported="true" android:visibleToInstantApps="true"/>
+        <meta-data android:name="com.google.android.play.billingclient.version" android:value="5.2.1"/>
+        <activity android:theme="@android:style/Theme.Translucent.NoTitleBar" android:name="com.android.billingclient.api.ProxyBillingActivity" android:exported="false" android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"/>
+        <service android:name="com.facebook.analytics2.logger.service.LollipopUploadSafeService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <service android:name="com.facebook.analytics2.logger.LollipopUploadService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <service android:name="com.facebook.analytics2.logger.AlarmBasedUploadService" android:exported="false"/>
+        <receiver android:name="com.facebook.analytics2.logger.HighPriUploadRetryReceiver" android:exported="false"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <service android:name="com.google.firebase.components.ComponentDiscoveryService" android:exported="false" android:directBootAware="true">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <receiver android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND" android:enabled="false" android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <provider android:name="androidx.startup.InitializationProvider" android:exported="false" android:authorities="com.facebook.lite.androidx-startup">
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+        </provider>
+    </application>
+    <queries>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.PICK"/>
+            <data android:mimeType="*/*"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="*"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.MAIN"/>
+        </intent>
+        <intent>
+            <action android:name="com.facebook.secure.packagefinder.intent.ACTION_QUERY_PACKAGES"/>
+        </intent>
+        <intent>
+            <action android:name="com.facebook.GET_PHONE_ID"/>
+        </intent>
+        <intent>
+            <action android:name="com.facebook.GET_UNIQUE_ID"/>
+        </intent>
+    </queries>
+</manifest>

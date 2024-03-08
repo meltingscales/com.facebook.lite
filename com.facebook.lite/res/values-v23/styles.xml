@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FBLiteThemeBase" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:colorControlActivated">@color/fds_blue_50</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="colorControlActivated">@color/fds_blue_55</item>
+        <item name="colorPullToRefreshBackground">@color/white</item>
+        <item name="colorPullToRefreshForeground">@color/swipe_refresh_color</item>
+        <item name="colorSwitchThumbNormal">@color/switch_light</item>
+    </style>
+    <style name="blackBackgroundTheme" parent="@style/FBLiteThemeBase">
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="darkModeTheme" parent="@style/FBLiteThemeBase">
+        <item name="android:windowBackground">@color/fds_surface_bg_dark</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:colorControlActivated">@color/fds_blue_55</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="colorControlActivated">@color/fds_blue_50</item>
+        <item name="colorSwitchThumbNormal">@color/switch_dark</item>
+    </style>
+    <style name="splashScreenTheme" parent="@style/FBLiteThemeBaseLight">
+        <item name="android:windowBackground">@drawable/splash_screen_new</item>
+        <item name="android:windowSplashScreenBackground">@color/splash_screen_background</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_screen_logo</item>
+        <item name="android:windowSplashScreenAnimationDuration">1</item>
+        <item name="android:windowSplashScreenBrandingImage">@drawable/from_meta_logo</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/splash_screen_background</item>
+        <item name="android:windowSplashScreenBehavior">icon_preferred</item>
+    </style>
+    <style name="whiteBackgroundTheme" parent="@style/FBLiteThemeBaseLight">
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+    <style name="FBLiteThemeBaseLight" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:colorControlActivated">@color/fds_blue_50</item>
+        <item name="android:statusBarColor">@android:color/white</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorControlActivated">@color/fds_blue_55</item>
+        <item name="colorPullToRefreshBackground">@color/white</item>
+        <item name="colorPullToRefreshForeground">@color/swipe_refresh_color</item>
+        <item name="colorSwitchThumbNormal">@color/switch_light</item>
+    </style>
+</resources>

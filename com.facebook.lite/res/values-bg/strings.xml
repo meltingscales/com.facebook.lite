@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="__external__external_share_intent_label">Добавяне към Lite</string>
+    <string name="accessibility_link_role">Връзка</string>
+    <string name="common_google_play_services_unknown_issue">%1$s има проблеми с услугите за Google Play. Моля, опитайте отново.</string>
+    <string name="external_share_to_groups_intent_label">Вашите групи</string>
+    <string name="external_share_to_messaging_intent_label">Съобщения</string>
+    <string name="external_share_to_story_intent_label">Вашата история</string>
+</resources>

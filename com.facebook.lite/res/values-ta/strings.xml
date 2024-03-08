@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="__external__external_share_intent_label">Lite உடன் சேர்க்கவும்</string>
+    <string name="accessibility_link_role">இணைப்பு</string>
+    <string name="common_google_play_services_unknown_issue">Google Play சேவைகளில் சிக்கல் ஏற்பட்டதால், %1$s ஆப்ஸை அணுக முடியவில்லை. மீண்டும் முயலவும்.</string>
+    <string name="external_share_to_groups_intent_label">உங்கள் குழுக்கள்</string>
+    <string name="external_share_to_messaging_intent_label">மெசேஜிங்</string>
+    <string name="external_share_to_story_intent_label">உங்கள் கதை</string>
+</resources>

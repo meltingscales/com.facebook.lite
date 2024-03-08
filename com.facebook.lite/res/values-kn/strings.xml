@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="__external__external_share_intent_label">Lite ಗೆ ಸೇರಿಸಿ</string>
+    <string name="accessibility_link_role">ಲಿಂಕ್</string>
+    <string name="common_google_play_services_unknown_issue">Google Play ಸೇವೆಗಳಲ್ಲಿ %1$s ಸಮಸ್ಯೆಯನ್ನು ಹೊಂದಿದೆ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="external_share_to_groups_intent_label">ನಿಮ್ಮ ಗುಂಪುಗಳು</string>
+    <string name="external_share_to_messaging_intent_label">ಸಂದೇಶವನ್ನು ಕಳುಹಿಸುವಿಕೆ</string>
+    <string name="external_share_to_story_intent_label">ನಿಮ್ಮ ಸುದ್ದಿ</string>
+</resources>

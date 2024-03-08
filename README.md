@@ -2,19 +2,38 @@
 
 ### gitleaks
 
-TODO
+Nothing.
 
 ### apkurlgrep
 
-TODO
+We see a decent listing of API endpoints, but nothing really sensitive:
+
+```
+/.*/posts/.*
+/.*/photos/.*
+/.*/photos
+/.*/media_set
+/.*/about
+/.*/photos_of
+/.*/photos_albums
+/.*/friends
+/inter_app/redirect/.*
+/privacy_access_hub/.*
+/contact_upload_settings/.*
+/fbrdr/2048/
+/fbrdr/274/
+/profile.php
+/permalink.php
+```
 
 ### Snyk SAST
 
-TODO
+- TLS 1.0 is used instead of TLS 1.2.
+- Various medium findings, nothing really significant.
 
 ### jadx
 
-TODO
+Nothing.
 
 ## Commands
 
